@@ -1,0 +1,121 @@
+.collage {
+  column-count: 3;
+  column-gap: 15px;
+  width: 100%;
+}
+
+.collage-item {
+  break-inside: avoid;
+  margin-bottom: 15px;
+}
+
+.collage-item img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  object-fit: cover;
+}
+
+
+@media (max-width:450px){
+  .slider_image img{
+    height:100%
+  }
+}
+
+@media (min-width:450px) and (max-width:800px){
+  .slider_image img{
+    height: 100%;
+  }
+}
+
+
+@media (max-width:450px){
+  .aboutus_heading{
+    margin-top: 160px !important;
+  }
+}
+
+@media (max-width:450px){
+  .leader_heading{
+    display: flex;
+    flex-direction: column;
+  }
+  .leader_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width:450px) and (max-width:800px){
+  .leader_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width:800px) and (max-width:1800px){
+  .leader_heading{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:450px){
+
+  .donate_element{
+    display: flex;
+    flex-direction: column;
+  }
+  .donate_head1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .donate_upi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-width:450px) and (max-width:1800px) {
+  .donate_element {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  
+  .donate_row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .donate_head1,
+  .donate_bank {
+    flex: 1; 
+  }
+
+  
+  .donate_upi {
+    width: 100%;
+  }
+}
+
+
+@media (max-width:450px){
+  .ourimpact_btn{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+  }
+}

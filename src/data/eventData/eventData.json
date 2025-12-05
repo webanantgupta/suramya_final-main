@@ -1,0 +1,205 @@
+
+
+[
+    {
+        "id": 1,
+        "image": "/public/img/homeEventImg/rml.png",
+        "title": "Two-Day Symposium with RMLNLU & High Commission of Canada",
+        "description": "A landmark event that brought legal experts, government leaders, and community voices together.",
+        "highlights": [
+            "Legal sensitization sessions",
+            "Queer film showcase & community dialogue",
+            "Chief Guest: Shri Asim Arun, Minister of Social Welfare",
+            "Distinguished guests: RMLNLU VC Prof. (Dr.) Amar Pal Singh, Filmmaker Onir, Rights activist Mx. Dhananjay Chauhan, Mr. Iqbal Kidwai"
+        ],
+        "impact": "Widely appreciated for its inclusivity and depth, setting new benchmarks for LGBTQIA+ awareness in UP."
+    },
+    {
+        "id": 2,
+         "image": "/public/img/homeEventImg/cme.png",
+        "title": "CME for Medical Professionals – KGMU, High Commission of Canada & IPS",
+        "description": "A breakthrough Continuing Medical Education program commemorating IDAHOBIT.",
+        "achievements": [
+            "Sensitization on transgender healthcare",
+            "Sessions by nationally renowned psychiatrists, endocrinologists, and medical faculty",
+            "Dialogue on inclusive medical protocols"
+        ],
+        "impact": "Strengthened medical cultural competency and initiated an ongoing conversation on queer healthcare."
+    },
+    {
+        "id": 3,
+       "image": "/public/img/homeEventImg/mediasensitization.png",
+        "title": "Media Sensitization: Samvedna – #ReportWithPride",
+        "description": "A workshop for mass communication students and journalists.",
+        "focusAreas": [
+            "Responsible reporting",
+            "Understanding gender identity & sexual orientation",
+            "Media ethics and representation"
+        ],
+        "impact": "Built a generation of sensitive and informed storytellers."
+    },
+    {
+        "id": 4,
+        "image": "/public/img/homeEventImg/transgenderupgov.png",
+        "description": "A pioneering festival celebrating transgender literature and culture, promoting inclusivity, creativity, and community engagement in Uttar Pradesh.",
+        "title": "India’s First Transgender Literature & Cultural Festival – UP Govt",
+        "purpose": "To celebrate transgender voices, literature, poetry, and art.",
+        "impact": "Created a safe cultural space for transgender writers, poets, performers, and activists — encouraging expression, visibility, and pride."
+    },
+    {
+        "id": 5,
+        "image": "/public/img/homeEventImg/queereve.png",
+        "title": "Queer Eve – Night of a Thousand Rainbows",
+        "description": "A colourful cultural celebration collaborated with the High Commission of Canada.",
+        "features": [
+            "Fashion show",
+            "Poetry",
+            "Dance",
+            "Panel conversations"
+        ],
+        "impact": "A platform for emerging LGBTQIA+ artists and performers to shine."
+    },
+    {
+        "id": 6,
+        "image": "/public/img/homeEventImg/queerday.png",
+        "title": "First Queer Sports Day in Lucknow",
+        "description": "Celebrating Pride Month with energy, joy, and community bonding.",
+        "games": [
+            "Kho-Kho",
+            "Kabaddi",
+            "Tug of War",
+            "Frisbee"
+        ],
+        "impact": "Enhanced physical and emotional well-being through sports."
+    },
+    {
+        "id": 7,
+        "image": "/public/img/homeEventImg/policetraning.png",
+        "title": "Monthly Sensitization Training for UP Police",
+        "description": "15 batches trained so far.",
+        "focus": [
+            "Human rights",
+            "Legal protections",
+            "Gender identity",
+            "Respectful communication"
+        ],
+        "impact": "Created a more empathetic and aware police force."
+    },
+    {
+        "id": 8,
+        "image": "/public/img/homeEventImg/socialwelfare.png",
+        "title": "Government Department Training – SIRDUP & Social Welfare Department",
+        "sessions": [
+            "Transgender Persons (Protection of Rights) Act 2019",
+            "Gender sensitization",
+            "Rights & welfare policies"
+        ],
+        "impact": "Government staff are now equipped to offer inclusive public services."
+    },
+    {
+        "id": 9,
+        "image": "/public/img/homeEventImg/supportcell.png",
+        "title": "First LGBTQIA+ Support Cell in UP – Amity University",
+        "initiativeBy": "Suramya Life Foundation",
+        "impact": "A safe space for psycho-social support, career counselling, and mental health screening."
+    },
+    {
+        "id": 10,
+        "image": "/public/img/homeEventImg/srmu.png",
+        "title": "Partnership with SRMU for Inclusive Campus Programming",
+        "focus": [
+            "Research",
+            "Gender sensitization workshops",
+            "Support cell development"
+        ],
+        "impact": "Encouraging an open and progressive learning environment."
+    },
+    {
+        "id": 11,
+        "image": "/public/img/homeEventImg/gendersensitization.png",
+        "title": "Gender Sensitization – Schools & Colleges",
+        "topics": [
+            "Stereotyping",
+            "Bias",
+            "Gender inequality",
+            "Mental health impact"
+        ]
+    },
+    {
+        "id": 12,
+        "image": "/public/img/homeEventImg/cyberbulling.png",
+        "title": "Cyberbullying Workshops with UP Police",
+        "locations": [
+            "GD Goenka School",
+            "Birla Open Minds School"
+        ],
+        "topics": [
+            "Legal awareness",
+            "Prevention",
+            "Reporting",
+            "Psychological impact"
+        ]
+    },
+    {
+        "id": 13,
+        "image": "/public/img/homeEventImg/mentalhealth.png",
+        "title": "NTPC NRHQ – Mental Health at Workplace",
+        "workshop": "It’s Time to Prioritize Mental Health in the Workplace.",
+        "impact": "Supporting emotionally healthy work cultures."
+    },
+    {
+        "id": 14,
+        "image": "/public/img/homeEventImg/reliance.png",
+        "title": "Reliance Industries Limited – Workplace Well-being",
+        "workshop": "It’s Time to Prioritize Mental Health in the Workplace.",
+        "impact": "Helping organisations build emotionally supportive workspaces."
+    },
+    {
+        "id": 15,
+        "image": "/public/img/homeEventImg/healthstory.png",
+        "title": "Pride Pulse: Health, Stories & Expressions",
+        "supportBy": "KGMU doctors",
+        "features": [
+            "Free health consultations",
+            "Film screenings",
+            "Emotional support circles"
+        ]
+    },
+    {
+        "id": 16,
+        "image": "/public/img/homeEventImg/man1.png",
+        "title": "Man-Mridang (1, 2 & 3)",
+        "description": "A signature self-expression & mental health series.",
+        "activities": [
+            "Mandala therapy",
+            "Gratitude workshops",
+            "Psychodrama",
+            "Self-love practices",
+            "Emotional decoding"
+        ]
+    },
+    {
+        "id": 17,
+        "image": "/public/img/homeEventImg/womenday.png",
+        "title": "Jashn-e-Naari (Women’s Day Special)",
+        "purpose": "A healing space for cis and trans women.",
+        "focus": [
+            "Shared stories",
+            "Collective strength",
+            "Empathy-building"
+        ]
+    },
+    {
+        "id": 18,
+        "image": "/public/img/homeEventImg/hope.png",
+        "title": "Hope Beyond Hurt",
+        "description": "A trauma-healing and emotional resilience initiative.",
+        "impact": "Supporting survivors in rebuilding hope and reclaiming strength."
+    },
+    {
+        "id": 19,
+        "image": "/public/img/homeEventImg/helpline.png",
+        "title": "LGBTQIA+ Mental Health Helpline",
+        "description": "A dedicated support line for emotional, psychological, or crisis support."
+    }
+]
