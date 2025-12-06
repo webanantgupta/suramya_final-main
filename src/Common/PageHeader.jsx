@@ -7,7 +7,7 @@ const PageHeader = ({ title }) => {
       <section className="page_breadcrumbs ds background_cover section_padding_top_65 section_padding_bottom_65">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 text-center">
+            <div className="col-sm-12 text-center mobilePaddingTop">
               <h2>{title}</h2>
               <ol className="breadcrumb greylinks">
                 <li>

@@ -120,7 +120,9 @@ a {
 	.page_topline {
 		display: none;
 	}
-
+.mobilePaddingTop {
+		padding-top: 20px;
+	}
 	.intro_section {
 		height: 400px;
 	}
@@ -151,12 +153,13 @@ a {
 		display: flex;
 		flex-direction: column;
 		gap: 25px;
-		padding-left:40px ;
+		padding-left: 40px;
 		align-items: flex-start;
 	}
-.about_two_img_two{
-	display: none;
-}
+
+	.about_two_img_two {
+		display: none;
+	}
 
 }
 
@@ -8291,6 +8294,7 @@ a.underline-link {
 }
 
 @media screen and (min-width: 991px) and (max-width:3000px) {
+	
 
 	.header_mainmenu {
 		overflow: visible;
