@@ -14,7 +14,7 @@ const Header = () => {
                         <Col sm={12} className=" display_table">
                             <div className="header_left_logo display_table_cell">
                                 <Link to="/" className="logo logo_with_text">
-                                    <img src="/public/img/suramyaheaderlogo.svg" alt="" />
+                                    <img src="  /img/suramyaheaderlogo.svg" alt="" />
                                 </Link>
                             </div>
                             <div className="header_mainmenu display_table_cell text-center m-auto ">

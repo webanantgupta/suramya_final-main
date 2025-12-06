@@ -3,7 +3,7 @@
 [
     {
         "id": 1,
-        "image": "/public/img/homeEventImg/rml.png",
+        "image": "  /img/homeEventImg/rml.png",
         "title": "Two-Day Symposium with RMLNLU & High Commission of Canada",
         "description": "A landmark event that brought legal experts, government leaders, and community voices together.",
         "highlights": [
@@ -16,7 +16,7 @@
     },
     {
         "id": 2,
-         "image": "/public/img/homeEventImg/cme.png",
+         "image": "  /img/homeEventImg/cme.png",
         "title": "CME for Medical Professionals – KGMU, High Commission of Canada & IPS",
         "description": "A breakthrough Continuing Medical Education program commemorating IDAHOBIT.",
         "achievements": [
@@ -28,7 +28,7 @@
     },
     {
         "id": 3,
-       "image": "/public/img/homeEventImg/mediasensitization.png",
+       "image": "  /img/homeEventImg/mediasensitization.png",
         "title": "Media Sensitization: Samvedna – #ReportWithPride",
         "description": "A workshop for mass communication students and journalists.",
         "focusAreas": [
@@ -40,7 +40,7 @@
     },
     {
         "id": 4,
-        "image": "/public/img/homeEventImg/transgenderupgov.png",
+        "image": "  /img/homeEventImg/transgenderupgov.png",
         "description": "A pioneering festival celebrating transgender literature and culture, promoting inclusivity, creativity, and community engagement in Uttar Pradesh.",
         "title": "India’s First Transgender Literature & Cultural Festival – UP Govt",
         "purpose": "To celebrate transgender voices, literature, poetry, and art.",
@@ -48,7 +48,7 @@
     },
     {
         "id": 5,
-        "image": "/public/img/homeEventImg/queereve.png",
+        "image": "  /img/homeEventImg/queereve.png",
         "title": "Queer Eve – Night of a Thousand Rainbows",
         "description": "A colourful cultural celebration collaborated with the High Commission of Canada.",
         "features": [
@@ -61,7 +61,7 @@
     },
     {
         "id": 6,
-        "image": "/public/img/homeEventImg/queerday.png",
+        "image": "  /img/homeEventImg/queerday.png",
         "title": "First Queer Sports Day in Lucknow",
         "description": "Celebrating Pride Month with energy, joy, and community bonding.",
         "games": [
@@ -74,7 +74,7 @@
     },
     {
         "id": 7,
-        "image": "/public/img/homeEventImg/policetraning.png",
+        "image": "  /img/homeEventImg/policetraning.png",
         "title": "Monthly Sensitization Training for UP Police",
         "description": "15 batches trained so far.",
         "focus": [
@@ -87,7 +87,7 @@
     },
     {
         "id": 8,
-        "image": "/public/img/homeEventImg/socialwelfare.png",
+        "image": "  /img/homeEventImg/socialwelfare.png",
         "title": "Government Department Training – SIRDUP & Social Welfare Department",
         "sessions": [
             "Transgender Persons (Protection of Rights) Act 2019",
@@ -98,14 +98,14 @@
     },
     {
         "id": 9,
-        "image": "/public/img/homeEventImg/supportcell.png",
+        "image": "  /img/homeEventImg/supportcell.png",
         "title": "First LGBTQIA+ Support Cell in UP – Amity University",
         "initiativeBy": "Suramya Life Foundation",
         "impact": "A safe space for psycho-social support, career counselling, and mental health screening."
     },
     {
         "id": 10,
-        "image": "/public/img/homeEventImg/srmu.png",
+        "image": "  /img/homeEventImg/srmu.png",
         "title": "Partnership with SRMU for Inclusive Campus Programming",
         "focus": [
             "Research",
@@ -116,7 +116,7 @@
     },
     {
         "id": 11,
-        "image": "/public/img/homeEventImg/gendersensitization.png",
+        "image": "  /img/homeEventImg/gendersensitization.png",
         "title": "Gender Sensitization – Schools & Colleges",
         "topics": [
             "Stereotyping",
@@ -127,7 +127,7 @@
     },
     {
         "id": 12,
-        "image": "/public/img/homeEventImg/cyberbulling.png",
+        "image": "  /img/homeEventImg/cyberbulling.png",
         "title": "Cyberbullying Workshops with UP Police",
         "locations": [
             "GD Goenka School",
@@ -142,21 +142,21 @@
     },
     {
         "id": 13,
-        "image": "/public/img/homeEventImg/mentalhealth.png",
+        "image": "  /img/homeEventImg/mentalhealth.png",
         "title": "NTPC NRHQ – Mental Health at Workplace",
         "workshop": "It’s Time to Prioritize Mental Health in the Workplace.",
         "impact": "Supporting emotionally healthy work cultures."
     },
     {
         "id": 14,
-        "image": "/public/img/homeEventImg/reliance.png",
+        "image": "  /img/homeEventImg/reliance.png",
         "title": "Reliance Industries Limited – Workplace Well-being",
         "workshop": "It’s Time to Prioritize Mental Health in the Workplace.",
         "impact": "Helping organisations build emotionally supportive workspaces."
     },
     {
         "id": 15,
-        "image": "/public/img/homeEventImg/healthstory.png",
+        "image": "  /img/homeEventImg/healthstory.png",
         "title": "Pride Pulse: Health, Stories & Expressions",
         "supportBy": "KGMU doctors",
         "features": [
@@ -167,7 +167,7 @@
     },
     {
         "id": 16,
-        "image": "/public/img/homeEventImg/man1.png",
+        "image": "  /img/homeEventImg/man1.png",
         "title": "Man-Mridang (1, 2 & 3)",
         "description": "A signature self-expression & mental health series.",
         "activities": [
@@ -180,7 +180,7 @@
     },
     {
         "id": 17,
-        "image": "/public/img/homeEventImg/womenday.png",
+        "image": "  /img/homeEventImg/womenday.png",
         "title": "Jashn-e-Naari (Women’s Day Special)",
         "purpose": "A healing space for cis and trans women.",
         "focus": [
@@ -191,14 +191,14 @@
     },
     {
         "id": 18,
-        "image": "/public/img/homeEventImg/hope.png",
+        "image": "  /img/homeEventImg/hope.png",
         "title": "Hope Beyond Hurt",
         "description": "A trauma-healing and emotional resilience initiative.",
         "impact": "Supporting survivors in rebuilding hope and reclaiming strength."
     },
     {
         "id": 19,
-        "image": "/public/img/homeEventImg/helpline.png",
+        "image": "  /img/homeEventImg/helpline.png",
         "title": "LGBTQIA+ Mental Health Helpline",
         "description": "A dedicated support line for emotional, psychological, or crisis support."
     }
