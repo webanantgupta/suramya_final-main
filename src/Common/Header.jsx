@@ -1,10 +1,20 @@
-import React from 'react'
 import TopHeader from './TopHeader'
 import { Col, Container, Row } from 'reactstrap'
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { FaHeart } from "react-icons/fa";
+import { useState } from 'react';
 
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+    const closeMenu = () => {
+        setMenuOpen(false);
+    };
+
     return (
         <>
             <TopHeader />
@@ -18,45 +28,32 @@ const Header = () => {
                                 </Link>
                             </div>
                             <div className="header_mainmenu display_table_cell text-center m-auto ">
-                                <nav className="mainmenu_wrapper text-center d-flex justify-content-center">
+                                <nav className={`mainmenu_wrapper text-center mobile-menu d-flex justify-content-center ${menuOpen ? "active" : ""}`}>
                                     <ul className="mainmenu nav sf-menu">
-                                        <li className="">
-
-                                            <a href="/">Home</a>
-
+                                        <li>
+                                            <a href="/" onClick={closeMenu}>Home</a>
                                         </li>
                                         <li>
-                                            <Link to={''}>About Us </Link>
+                                            <Link to="" onClick={closeMenu}>About Us</Link>
                                             <ul>
-                                                <li> <Link to="/about">Who We Are</Link> </li>
-                                                <li> <Link to="/leadergrid">Our Leadership</Link> </li>
-                                                {/* <li> <Link to="/impact">Home single page</Link> </li> */}
+                                                <li><Link to="/about" onClick={closeMenu}>Who We Are</Link></li>
+                                                <li><Link to="/leadergrid" onClick={closeMenu}>Our Leadership</Link></li>
                                             </ul>
                                         </li>
-                                        <li>
 
-                                            <Link to="/impact">Our Impact </Link>
-                                        </li>
-                                        <li>
-
-                                            <Link to="/gallery">Gallery</Link>
-                                        </li>
-                                        <li>
-
-                                            <a href="/viewevents">Events</a>
-                                        </li>
-
-                                        <li>
-
-                                            <Link to="/contact">Contact Us</Link>
-                                        </li>
+                                        <li><Link to="/impact" onClick={closeMenu}>Our Impact</Link></li>
+                                        <li><Link to="/gallery" onClick={closeMenu}>Gallery</Link></li>
+                                        <li><Link to="/viewevents" onClick={closeMenu}>Events</Link></li>
+                                        <li><Link to="/contact" onClick={closeMenu}>Contact Us</Link></li>
                                     </ul>
+
                                 </nav>
                                 {/* eof main nav */}
                                 {/* header toggler */}
-                                <span className="toggle_menu">
+                                <span className="toggle_menu" onClick={toggleMenu}>
                                     <span />
                                 </span>
+
                             </div>
                             <div className="header_right_buttons display_table_cell text-right hidden-xs">
 
@@ -68,6 +65,7 @@ const Header = () => {
                     </Row>
                 </Container>
             </header>
+
         </>
     )
 }

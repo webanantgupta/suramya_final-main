@@ -7,6 +7,7 @@ const Impact = () => {
         <div>
             <PageHeader title="Our Impact" />
             <OurImpact />
+            <br/><br/>
         </div>
     )
 }

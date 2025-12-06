@@ -116,6 +116,50 @@ a {
 
 
 /* _____newcsss______ */
+@media screen and (min-width: 100px) and (max-width: 991px) {
+	.page_topline {
+		display: none;
+	}
+
+	.intro_section {
+		height: 400px;
+	}
+
+	.slide-image-wrap img {
+		height: 400px;
+	}
+
+	.header_mainmenu {
+		overflow: visible;
+		width: 209px !important;
+		padding: 0 15px;
+	}
+
+	.mobile-menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background: #2f333b;
+		display: flex;
+		flex-direction: column;
+		z-index: 9999;
+	}
+
+	.mobile-menu ul {
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+		padding-left:40px ;
+		align-items: flex-start;
+	}
+.about_two_img_two{
+	display: none;
+}
+
+}
+
 .value_card {
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -8246,10 +8290,13 @@ a.underline-link {
 	padding-left: 0;
 }
 
-.header_mainmenu {
-	overflow: visible;
-	width: 10000px;
-	padding: 0 15px;
+@media screen and (min-width: 991px) and (max-width:3000px) {
+
+	.header_mainmenu {
+		overflow: visible;
+		width: 10000px;
+		padding: 0 15px;
+	}
 }
 
 .header_right_buttons {
@@ -18198,4 +18245,3 @@ a.color-icon.border-icon:hover {
 .checkbox-slider--b-flat input+span:before {
 	box-shadow: none;
 }
-
