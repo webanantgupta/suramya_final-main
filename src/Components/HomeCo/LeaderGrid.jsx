@@ -33,7 +33,7 @@ const LeaderGrid = () => {
                         navigation
                         loop={true}
                         rewind={true}
-                        pagination={{ clickable: true }}
+                        // pagination={{ clickable: true }}
                         autoplay={{ delay: 3000 }}
                         spaceBetween={20}
                         slidesPerView={1}
@@ -50,7 +50,7 @@ const LeaderGrid = () => {
                                     <img src={obj.image} alt="image" style={{ height: "300px",objectFit:'contain' }} />
                                     <h4 className="mt-2 text-center">{obj.heading}</h4>
                                     <h5 className="small-text text-center highlight">{obj.subheading}</h5>
-                                    <p className=" my-auto text-center">{obj.description}</p>
+                                    <p className=" my-auto text-justify">{obj.description}</p>
                                 </div>
                             </SwiperSlide>
                         })}
@@ -65,7 +65,7 @@ const LeaderGrid = () => {
                                 <img src={obj.image} alt="image" style={{ height: "300px", objectFit:"contain" }} />
                                 <h4 className="mt-2 text-center">{obj.heading}</h4>
                                 <h5 className="small-text text-center highlight">{obj.subheading}</h5>
-                                <p className="my-auto text-center">{obj.description}</p>
+                                <p className="my-auto text-justify">{obj.description}</p>
                             </div>
                         </div>
                     })}
@@ -78,7 +78,7 @@ const LeaderGrid = () => {
                         modules={[Navigation, Pagination, Autoplay]}
                         navigation
                         loop={true}
-                        pagination={{ clickable: true }}
+                        // pagination={{ clickable: true }}
                         autoplay={{ delay: 3000 }}
                         spaceBetween={20}
                         slidesPerView={1}
@@ -98,7 +98,7 @@ const LeaderGrid = () => {
                                         <img src={obj.image} alt="image" style={{ height: "300px", objectFit:"contain" }} />
                                         <h4 className="mt-2 text-center">{obj.heading}</h4>
                                         <h5 className="small-text text-center highlight">{obj.subheading}</h5>
-                                        <p className="my-auto text-center">{obj.description}</p>
+                                        <p className="my-auto text-justify">{obj.description}</p>
                                     </div>
 
                                 </div>

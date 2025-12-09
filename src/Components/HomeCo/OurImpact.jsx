@@ -82,9 +82,9 @@ const OurImpact = () => {
                                     </h1>
                                     <br /><br />
                                     <div className="ourimpact_btn">
-                                        <Link to="/about" className="theme_button color2">
+                                        {/* <Link to="/about" className="theme_button color2">
                                             read more <FaAngleDoubleRight size={'20px'} />
-                                        </Link>&emsp;
+                                        </Link>&emsp; */}
                                         <Link to="/donate" style={{ background: "transparent", border: "1px solid #f3702b" }} className="theme_button color2" >
                                             Support Our Work <FaAngleDoubleRight size={'20px'} />
                                         </Link>

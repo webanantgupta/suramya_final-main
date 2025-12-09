@@ -1,23 +1,55 @@
+import LightGallery from 'lightgallery/react';
 import PageHeader from "../../Common/PageHeader";
 import galleryImg from "../../data/galleryImgData/galleryData.json"
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
 
-const Gallery = () =>{
+// If you want you can use SCSS instead of css
+import 'lightgallery/scss/lightgallery.scss';
+import 'lightgallery/scss/lg-zoom.scss';
 
-console.log(galleryImg);
+// import plugins if you need
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
 
-    
+
+
+
+
+
+
+const Gallery = () => {
+
+    console.log(galleryImg);
+    const onInit = () => {
+        console.log("sdvdsv");
+
+    }
+
     return <div>
-        <PageHeader title="Gallery"/> 
-       <div className="container-fluid">
-    <div className="collage p-1 p-sm-3 p-lg-5">
-        {galleryImg?.map((obj, index) => (
-            <div key={index} className="collage-item">
-                <img src={obj.image} alt="gallery" />
+        <PageHeader title="Gallery" />
+        <div className="container-fluid">
+            <div className="collage">
+                <LightGallery
+                    onInit={onInit}
+                    speed={500}
+                    plugins={[lgThumbnail, lgZoom]}
+                >
+                    {galleryImg?.map((obj, index) => (
+            
+                            <a
+                                key={index}
+                                href={obj.image}
+                                className='collage-item gallery_image'
+                            >
+                                <img src={obj.image} alt="gallery" />
+                            </a>
+                    
+                    ))}
+                </LightGallery>
             </div>
-        ))}
-    </div>
-</div>
-
+        </div>
     </div>
 }
 

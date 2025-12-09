@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const PageHeader = ({ title }) => {
+const PageHeader = ({ title, subTitle, path }) => {
   return (
     <>
       <section className="page_breadcrumbs ds background_cover section_padding_top_65 section_padding_bottom_65">
@@ -13,7 +13,12 @@ const PageHeader = ({ title }) => {
                 <li>
                   <Link to="/">Home</Link>
                 </li>
-                <li className="active">{title}</li>
+
+                {subTitle ?
+                  <>
+                    <li className="active"><Link to={path}>{title}</Link></li>
+                    <li className="active">{subTitle}</li>
+                  </> :  <li className="active">{title}</li>}
               </ol>
             </div>
           </div>

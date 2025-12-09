@@ -1,11 +1,10 @@
-
-
 [
     {
         "id": 1,
-        "image": "  /img/homeEventImg/rml.png",
+        "image": "/img/homeEventImg/rml.png",
         "title": "Two-Day Symposium with RMLNLU & High Commission of Canada",
         "description": "A landmark event that brought legal experts, government leaders, and community voices together.",
+        "content": "Organized in collaboration with RMLNLU and the High Commission of Canada in India, concluded successfully. The event featured legal sensitization sessions and a queer film showcase, fostering dialogue on rights and representation. Shri Asim Arun, Minister of Social Welfare, UP, graced the occasion as Chief Guest. Prominent personalities like RMLNLU VC Prof. (Dr.) Amar Pal Singh, filmmaker Mr. Onir, Mr. Iqbal Kidwai, and queer rights activist Mx. Dhananjay Chauhan were also present. The symposium was widely appreciated for its inclusivity, impact, and community engagement.",
         "highlights": [
             "Legal sensitization sessions",
             "Queer film showcase & community dialogue",
@@ -16,10 +15,11 @@
     },
     {
         "id": 2,
-         "image": "  /img/homeEventImg/cme.png",
+        "image": "/img/homeEventImg/cme.png",
         "title": "CME for Medical Professionals – KGMU, High Commission of Canada & IPS",
         "description": "A breakthrough Continuing Medical Education program commemorating IDAHOBIT.",
-        "achievements": [
+        "content": "– A programme for Medical Professionals was organized with the High Commission of Canada in India, KGMU’s Department of Psychiatry, Faculty of Paramedical Sciences, and the Indian Psychiatry Society, commemorated the International Day Against Homophobia, Biphobia, and Transphobia (IDAHOBIT). This CME offered educational activities to enhance medical professionals' understanding of transgender health issues, with esteemed professors and leading physicians sharing their expertise to foster an inclusive dialogue on Queer healthcare.",
+        "highlights": [
             "Sensitization on transgender healthcare",
             "Sessions by nationally renowned psychiatrists, endocrinologists, and medical faculty",
             "Dialogue on inclusive medical protocols"
@@ -28,10 +28,11 @@
     },
     {
         "id": 3,
-       "image": "  /img/homeEventImg/mediasensitization.png",
+        "image": "/img/homeEventImg/mediasensitization.png",
         "title": "Media Sensitization: Samvedna – #ReportWithPride",
         "description": "A workshop for mass communication students and journalists.",
-        "focusAreas": [
+        "content": "Aspiring Journalists, Students of Mass communication and activists were made aware of the difference between gender identity and sexual orientation in a LGBTQIA+ workshop. The workshop was supported by “The High Commission of Canada in India”.This workshop was organized to promote sensitivity, factuality and awareness in reporting about the queer community and the issue related to them.",
+        "highlights": [
             "Responsible reporting",
             "Understanding gender identity & sexual orientation",
             "Media ethics and representation"
@@ -40,18 +41,20 @@
     },
     {
         "id": 4,
-        "image": "  /img/homeEventImg/transgenderupgov.png",
+        "image": "/img/homeEventImg/transgenderupgov.png",
         "description": "A pioneering festival celebrating transgender literature and culture, promoting inclusivity, creativity, and community engagement in Uttar Pradesh.",
+        "content":"Suramya Life Foundation organized the India’s first “Literature & Cultural Feast for the Transgenders”  for the Social Welfare Department, UP Government. This event provided a platform for transgender writers, artists, and activists to come together, share their work, and build supportive networks and communities. By celebrating transgender literature and culture, such programme, contribute to greater inclusivity, empathy, and appreciation within society.",
         "title": "India’s First Transgender Literature & Cultural Festival – UP Govt",
         "purpose": "To celebrate transgender voices, literature, poetry, and art.",
         "impact": "Created a safe cultural space for transgender writers, poets, performers, and activists — encouraging expression, visibility, and pride."
     },
     {
         "id": 5,
-        "image": "  /img/homeEventImg/queereve.png",
+        "image": "/img/homeEventImg/queereve.png",
         "title": "Queer Eve – Night of a Thousand Rainbows",
         "description": "A colourful cultural celebration collaborated with the High Commission of Canada.",
-        "features": [
+        "content":"event took place in Lucknow, organized in collaboration with the High Commission of Canada in India. This landmark program offered a platform for emerging artists from the LGBTQIA+ community to showcase their hidden talents. The event featured a variety of engaging activities, including panel discussions, a fashion show, dance performances, and poetry readings, all designed to celebrate and highlight the richness of queer artistry.",
+        "highlights": [
             "Fashion show",
             "Poetry",
             "Dance",
@@ -64,7 +67,8 @@
         "image": "  /img/homeEventImg/queerday.png",
         "title": "First Queer Sports Day in Lucknow",
         "description": "Celebrating Pride Month with energy, joy, and community bonding.",
-        "games": [
+        "content": "Suramya Life Foundatio organized the “First Queer Sports Day” in Lucknow to celebrate the Pride Month. The event witnessed a list of interesting group games including Kho-Kho, Khabaddi, Frisbee and Tug of war. The community actively participated in the event and made it a grand success. ",
+        "highlights": [
             "Kho-Kho",
             "Kabaddi",
             "Tug of War",
@@ -77,7 +81,8 @@
         "image": "  /img/homeEventImg/policetraning.png",
         "title": "Monthly Sensitization Training for UP Police",
         "description": "15 batches trained so far.",
-        "focus": [
+        "content": "We are proud to implement an ongoing LGBTQIA+ awareness and sensitization program tailored for police personnel, serving as a crucial monthly training initiative for the Uttar Pradesh Police Department. To date, we have successfully trained 15 batches of officers. Our collective vision is to foster a society that is not only aware of but also empathetic toward the LGBTQIA+ community, creating a safer and more inclusive environment for all.",
+        "highlights": [
             "Human rights",
             "Legal protections",
             "Gender identity",
@@ -89,7 +94,9 @@
         "id": 8,
         "image": "  /img/homeEventImg/socialwelfare.png",
         "title": "Government Department Training – SIRDUP & Social Welfare Department",
-        "sessions": [
+        "description":"SIRDUP (DDU State Institute of Rural Development, UP) is conducting regular training sessions in collaboration with Suramya Life Foundation.",
+        "content":"SIRDUP (DDU State Institute of Rural Development, UP) is conducting regular training sessions in collaboration with Suramya Life Foundation, focusing on the “Transgender Act 2019” and gender sensitization. The trainings feature in-depth discussions on the Transgender Act and its associated rules, as well as other essential topics related to gender sensitization. Through these ongoing initiatives, we aim to equip participants with the knowledge and skills necessary to foster an inclusive and understanding environment.",
+        "highlights": [
             "Transgender Persons (Protection of Rights) Act 2019",
             "Gender sensitization",
             "Rights & welfare policies"
@@ -98,16 +105,20 @@
     },
     {
         "id": 9,
-        "image": "  /img/homeEventImg/supportcell.png",
+        "image": "/img/homeEventImg/supportcell.png",
         "title": "First LGBTQIA+ Support Cell in UP – Amity University",
+        "description":" Lucknow Campus has opened the “LGBTQIA+ Support Cell” in the university campus.",
+        "content":"With the initiative of Suramya Life Foundation, Amity University, Lucknow Campus has opened the “LGBTQIA+ Support Cell” in the university campus. This Support Cell is the First of its kind in Uttar Pradesh. We also organize “Career Counselling and Mental Health Screening” workshop for LGBTQIA+ students. These workshops are attended by the students studying in various colleges in and around Lucknow.",
         "initiativeBy": "Suramya Life Foundation",
         "impact": "A safe space for psycho-social support, career counselling, and mental health screening."
     },
     {
         "id": 10,
-        "image": "  /img/homeEventImg/srmu.png",
+        "image": "/img/homeEventImg/srmu.png",
         "title": "Partnership with SRMU for Inclusive Campus Programming",
-        "focus": [
+        "description": " Sri Ramswaroop Memorial University (SRMU), Lucknow will facilitate LGBTQIA+ inclusion and wider conversations around mental and emotional health.",
+        "content":"With the initiative of Suramya Life Foundation, Sri Ramswaroop Memorial University (SRMU), Lucknow will facilitate LGBTQIA+ inclusion and wider conversations around mental and emotional health. This collaboration would drive research initiatives, exchange programs, training and capacity building and community outreach programs. A LGBTQIA+ Support cell is also agreed upon. ",
+        "highlights": [
             "Research",
             "Gender sensitization workshops",
             "Support cell development"
@@ -116,9 +127,11 @@
     },
     {
         "id": 11,
-        "image": "  /img/homeEventImg/gendersensitization.png",
+        "image": "/img/homeEventImg/gendersensitization.png",
         "title": "Gender Sensitization – Schools & Colleges",
-        "topics": [
+        "description":"We organized a workshop on Gender sensitization at G.D. Goenka Public School.",
+        "content":"We organized a workshop on Gender sensitization at G.D. Goenka Public School. The participants were the teaching and the non teaching staff of the school. The participants had open discussion on various topics including Gender Stereotype and Gender biasing in the school and their impact on the students. Gender inequality and their impact on mental health was also discussed. ",
+        "highlights": [
             "Stereotyping",
             "Bias",
             "Gender inequality",
@@ -127,13 +140,15 @@
     },
     {
         "id": 12,
-        "image": "  /img/homeEventImg/cyberbulling.png",
+        "image": "/img/homeEventImg/cyberbulling.png",
         "title": "Cyberbullying Workshops with UP Police",
+        "description": "Held at GD Goenka & Birla Open Minds Schools.",
+        "content": "To understand the impact of cyber bulling a workshop was organized in collaboration with Cyber Crime Cell, UP Police, Lucknow at GD Goenka Public School and Birla Open Minds International School.Aspects like understanding cyber bullying, legal aspect, effect on mental health, [preventive measures, reporting and support were few topics discussed.",
         "locations": [
             "GD Goenka School",
             "Birla Open Minds School"
         ],
-        "topics": [
+        "highlights": [
             "Legal awareness",
             "Prevention",
             "Reporting",
@@ -142,24 +157,30 @@
     },
     {
         "id": 13,
-        "image": "  /img/homeEventImg/mentalhealth.png",
+        "image": "/img/homeEventImg/mentalhealth.png",
         "title": "NTPC NRHQ – Mental Health at Workplace",
+        "description": "Suramya Life Foundation on the occasion of World Mental Health Day.",
+        "content": "Suramya Life Foundation on the occasion of World Mental Health Day ( October 10,2024)  conducted a powerful workshop for  employees of NTPC NRHQ ( National Thermal Power Corporation, North Region Head Quarter), centered on this year’s theme: “It is Time to Prioritize Mental Health in the Workplace!”",
         "workshop": "It’s Time to Prioritize Mental Health in the Workplace.",
         "impact": "Supporting emotionally healthy work cultures."
     },
     {
         "id": 14,
-        "image": "  /img/homeEventImg/reliance.png",
+        "image": "/img/homeEventImg/reliance.png",
         "title": "Reliance Industries Limited – Workplace Well-being",
+        "description": "On the occasion of World Mental Health Day Suramya Life Foundation.",
+        "content": "On the occasion of World Mental Health Day Suramya Life Foundation was thrilled to host a dynamic workshop for the incredible employees of Reliance Industries Limited, bringing mental health into focus in the workplace. With enthusiastic Participants, the session highlighted this year’s theme: “It is Time to Prioritize Mental Health in the Workplace!”",
         "workshop": "It’s Time to Prioritize Mental Health in the Workplace.",
         "impact": "Helping organisations build emotionally supportive workspaces."
     },
     {
         "id": 15,
-        "image": "  /img/homeEventImg/healthstory.png",
+        "image": "/img/homeEventImg/healthstory.png",
         "title": "Pride Pulse: Health, Stories & Expressions",
+        "description": "Celebrating diversity, inclusivity, and bold self-expression.",
+        "content": "Celebrating diversity, inclusivity, and bold self-expression, we proudly hosted “Pride Pulse: Health, Stories & Expressions”—a vibrant and empowering community event. Renowned doctors from KGMU extended their support to create a safe, stigma-free space where LGBTQIA+ individuals could access respectful health consultations and guidance. The event also featured the screening of powerful, thought-provoking short films that shed light on real queer experiences, sparking emotion, awareness, and dialogue.",
         "supportBy": "KGMU doctors",
-        "features": [
+        "highlights": [
             "Free health consultations",
             "Film screenings",
             "Emotional support circles"
@@ -167,10 +188,13 @@
     },
     {
         "id": 16,
-        "image": "  /img/homeEventImg/man1.png",
+        "image": "/img/homeEventImg/man1.png",
         "title": "Man-Mridang (1, 2 & 3)",
         "description": "A signature self-expression & mental health series.",
-        "activities": [
+        "content1":"On the Occasion of Republic Day 2023, an event of `Draw-it-out` and `Psychodrama` was organized. The community along with their allies and friends participated in the event.Draw-it-out: Sketches and Portrait based activity to express emotions of hope, love and faith.Psychodrama: A form of therapy to help overcome personal problem or conflicts using drama as a medium.",
+        "content2": "The event was dedicated to stories and experiences. “Wheel of   emotion” was discussed and the participants tried to understand their feelings. Sharing joy, tears, love and laughter the depth of experiencing and expressing emotions was discussed. The participants also designed “affirmation cards” where they asserted their desire to break free from our presumptions and practices.",
+        "content3":"The event focused on over all wellbeing of individuals. Breathing wellness, Language of self Love, Gratitude Gala and Mirroring Your Mind with Mandala Art were few creative things we did in this workshop. ",
+        "highlights": [
             "Mandala therapy",
             "Gratitude workshops",
             "Psychodrama",
@@ -180,10 +204,12 @@
     },
     {
         "id": 17,
-        "image": "  /img/homeEventImg/womenday.png",
+        "image": "/img/homeEventImg/womenday.png",
         "title": "Jashn-e-Naari (Women’s Day Special)",
+        "description": "On the Occasion of International Woman`s Day an interactive event",
+        "content":"On the Occasion of International Woman`s Day an interactive event was organized for the cis gender women and the transwoman.   The purpose of the event was to create an inclusive environment and understanding of each other`s challenges, struggles and their perspective towards life and society.",
         "purpose": "A healing space for cis and trans women.",
-        "focus": [
+        "highlights": [
             "Shared stories",
             "Collective strength",
             "Empathy-building"
@@ -191,15 +217,17 @@
     },
     {
         "id": 18,
-        "image": "  /img/homeEventImg/hope.png",
+        "image": "/img/homeEventImg/hope.png",
         "title": "Hope Beyond Hurt",
         "description": "A trauma-healing and emotional resilience initiative.",
+        "content": "An Initiative by Suramya Life, `Hope beyond hurt`` suggests the resilience and optimism that can arise even in the face of severe trauma, pain or difficulty. It implies the belief that despite experiencing hurt or adversity, there is a possibility for healing, growth, and better times ahead. This programme encapsulates the human capacity to find light in darkness, to hold onto optimism despite challenges, and to look forward to a brighter future beyond present struggles.",
         "impact": "Supporting survivors in rebuilding hope and reclaiming strength."
     },
     {
         "id": 19,
         "image": "  /img/homeEventImg/helpline.png",
         "title": "LGBTQIA+ Mental Health Helpline",
-        "description": "A dedicated support line for emotional, psychological, or crisis support."
+        "description": "A dedicated support line for emotional, psychological, or crisis support.",
+        "content": "Started helpline number for the LGBTQIA+ individuals, wherein & they can call and seek help related to mental, emotional and  psychological problems. This helpline attempts to provide the much needed support to the queer community"
     }
 ]

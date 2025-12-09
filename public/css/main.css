@@ -120,9 +120,11 @@ a {
 	.page_topline {
 		display: none;
 	}
-.mobilePaddingTop {
+
+	.mobilePaddingTop {
 		padding-top: 20px;
 	}
+
 	.intro_section {
 		height: 400px;
 	}
@@ -8294,7 +8296,7 @@ a.underline-link {
 }
 
 @media screen and (min-width: 991px) and (max-width:3000px) {
-	
+
 
 	.header_mainmenu {
 		overflow: visible;
@@ -18248,4 +18250,127 @@ a.color-icon.border-icon:hover {
 
 .checkbox-slider--b-flat input+span:before {
 	box-shadow: none;
+}
+
+
+@media (max-width:450px) {
+	.aboutus_text {
+		text-align: justify;
+	}
+}
+
+@media (min-width:450px) and (max-width:800px) {
+	.aboutus_text {
+		text-align: justify;
+	}
+}
+
+.collage {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.collage_image img {
+	width: 100% !important;
+}
+
+@media (max-width:450px) {
+	.collage .lg-react-element {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 100%;
+	}
+
+	.collage .lg-react-element a {
+		width: 100% !important;
+		display: block !important;
+	}
+
+	.collage .lg-react-element img {
+		width: 100% !important;
+		height: 500px !important;
+		object-fit: cover !important;
+		display: block !important;
+	}
+}
+
+@media (min-width:450px) and (max-width:800px) {
+	.collage .lg-react-element {
+		display: grid;
+		grid-template-columns: 1fr 1fr !important;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		gap: 10px;
+	}
+
+	.collage .lg-react-element a {
+		width: 100% !important;
+		display: block !important;
+	}
+
+	.collage .lg-react-element img {
+		height: 500px !important;
+		width: 100% !important;
+		display: block !important;
+		object-fit: cover !important;
+	}
+
+	.collage .lg-react-element>div:last-child {
+		grid-column: span 2 !important;
+	}
+}
+
+@media (min-width:801px) and (max-width:1800px) {
+	.collage .lg-react-element {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 20px;
+		padding: 30px;
+	}
+
+	.collage .lg-react-element a {
+		width: 100% !important;
+		display: block !important;
+	}
+
+	.collage .lg-react-element img {
+		height: 400px !important;
+		width: 100% !important;
+		display: block !important;
+		object-fit: fill !important;
+	}
+
+
+	.collage .lg-react-element>div:last-child {
+		grid-column: span 3 !important;
+	}
+
+
+}
+
+
+@media (min-width:1801px){
+	.collage .lg-react-element {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 20px;
+		padding: 30px;
+	}
+
+	.collage .lg-react-element a {
+		width: 100% !important;
+		display: block !important;
+	}
+
+	.collage .lg-react-element img {
+		height: 400px !important;
+		width: 100% !important;
+		display: block !important;
+		object-fit: fill !important;
+	}
+	.collage .lg-react-element>div:last-child {
+		grid-column: span 3 !important;
+	}
 }

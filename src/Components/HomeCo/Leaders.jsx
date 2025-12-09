@@ -35,7 +35,7 @@ const Leaders = () => {
                                 className="topmargin_40"
                             >
                                 <SwiperSlide>
-                                    <article className="vertical-item content-padding big-padding with_border bottom_color_border text-center h-sm-100">
+                                    <article className="vertical-item content-padding big-padding with_border bottom_color_border text-center h-sm-100 leader_card">
                                         <div className="item-media">
                                             <img src="img/anshu.jpg" alt="" />
                                         </div>
@@ -51,7 +51,7 @@ const Leaders = () => {
                                 </SwiperSlide>
                                 
                                 <SwiperSlide>
-                                    <article className="vertical-item content-padding big-padding with_border bottom_color_border text-center">
+                                    <article className="vertical-item content-padding big-padding with_border bottom_color_border text-center leader_card">
                                         <div className="item-media">
                                             <img src="img/darvesh.jpg" alt="" />
                                         </div>
@@ -67,7 +67,7 @@ const Leaders = () => {
                                 </SwiperSlide>
 
                                 <SwiperSlide>
-                                    <article className="vertical-item content-padding big-padding with_border bottom_color_border text-center">
+                                    <article className="vertical-item content-padding big-padding with_border bottom_color_border text-center leader_card">
                                         <div className="item-media">
                                             <img src="img/Pankaj.jpg" alt="" />
                                         </div>

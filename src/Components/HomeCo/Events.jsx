@@ -1,15 +1,25 @@
 import { Card, CardBody } from "reactstrap";
 import homeEvents from "../../data/eventData/eventData.json"
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+// import required modules
+import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
 const Events = () => {
     console.log(homeEvents);
 
     const newData = homeEvents.slice(0, 4);
     console.log(newData);
 
-  
-    
+
+
 
     return (
         <>
@@ -20,25 +30,50 @@ const Events = () => {
                 <div>
                     <div className="text-start mb-4 d-flex justify-content-between align-items-center">
                         <div>
-                        <h2 className="fs-1">Events</h2>
+                            <h2 className="fs-1">Events</h2>
                         </div>
                         <div>
                             <Link to="/viewevents" className="theme_button color2 margin_0">View All</Link>
                         </div>
                     </div>
                     <div className='row'>
-                        {newData.map((obj, index) => {
-                            return <div className="col-12 col-sm-6 col-lg-3 mb-4" key={index}>
-                                <Card className="card_container h-100">
-                                    <img src={obj.image} alt="image" style={{height:"300px",objectFit:"cover"}}/>
-                                    <CardBody className="d-flex flex-column">
-                                        <h4 className="mt-auto text-center">{obj.title}</h4>
-                                        <p className="mt-auto text-center">{obj.description}</p>
-                                        {/* <Link to={`/event/${obj.id}`} className="mt-auto">Read more</Link> */}
-                                    </CardBody>
-                                </Card>
-                            </div>
-                        })}
+                        <Swiper
+                            cssMode={false}
+                            loop={true}
+                            rewind={true}
+                            autoplay={{
+                                delay: 1800,
+                                disableOnInteraction: false
+                            }}
+                            navigation={true}
+                            pagination={false}
+                            mousewheel={true}
+                            keyboard={true}
+                            modules={[Navigation, Pagination, Mousewheel, Keyboard,Autoplay]}
+                            breakpoints={{
+                                640: { slidesPerView: 1 },
+                                768: { slidesPerView: 2, spaceBetween: 30 },
+                                1024: { slidesPerView: 3, spaceBetween: 30 },
+                            }}
+                        >
+
+                            {newData.map((obj, index) => {
+                                return <SwiperSlide>
+                                    <div className="col-12 col-sm-6 col-lg-3 mb-4 w-100 h-100" key={index}>
+                                        <Card className="card_container h-100">
+                                            <img src={obj.image} alt="image" style={{ height: "300px", objectFit: "cover" }} />
+                                            <CardBody className="d-flex flex-column">
+                                                <h4 className="mt-auto text-center">{obj.title}</h4>
+                                                <p className="mt-auto text-justify">{obj.description}</p>
+                                                <Link to={`/event/${obj.id}`} className="mt-auto">Read more</Link>
+                                            </CardBody>
+                                        </Card>
+                                    </div>
+                                </SwiperSlide>
+
+                            })}
+                        </Swiper>
+
                     </div>
                 </div>
 

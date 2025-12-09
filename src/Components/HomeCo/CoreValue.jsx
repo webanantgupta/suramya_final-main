@@ -46,8 +46,8 @@ const CoreValue = () => {
                             <Swiper
                                 spaceBetween={20}
                                 modules={[Pagination, Autoplay, EffectFade]}
-                                pagination={{ clickable: true }}
-                                autoplay={{ delay: 5000 }}
+                                // pagination={{ clickable: true }}
+                                autoplay={{ delay: 2000 }}
                                 loop={true}
                                 breakpoints={{
                                     576: { slidesPerView: 1 },

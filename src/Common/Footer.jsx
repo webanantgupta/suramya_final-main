@@ -70,6 +70,7 @@ const Footer = () => {
                   <li> <Link  to="/viewevents">Events </Link></li>
                   <li>   <Link to="/impact">Our Impact    </Link> </li>
                   <li>   <Link to="/contact">Contact Us </Link> </li>
+                  {/* <li><Link to="/gallery">Gallery</Link></li> */}
                 </ul>
               </div>
             </div>

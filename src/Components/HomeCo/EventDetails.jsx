@@ -1,29 +1,102 @@
-import { useParams } from "react-router-dom"
-import eventData from "../../data/eventData/eventData.json"
+import { useParams } from "react-router-dom";
+import eventData from "../../data/eventData/eventData.json";
 import PageHeader from "../../Common/PageHeader";
 
-
 const EventDetails = () => {
-
   const { id } = useParams();
-  // console.log(id);
 
-  const event = eventData.find(e => e.id === parseInt(id));
-  console.log(event);
+  const event = eventData.find((e) => e.id === parseInt(id));
 
-  if (!event) return <p className="text-center">Event Not Found!</p>
+  if (!event) return <p className="text-center mt-5">Event Not Found!</p>;
 
-  return (<div>
+  return (
+    <div>
+      <PageHeader title={"Events"} subTitle={event.title} path="/viewevents"/>
 
-<PageHeader title={"Events"}/>
-    <div className="container-fluid my-5 d-flex flex-column align-items-center" >
-      <img src={event.image} alt="image" style={{height:"450px",width:"600px" }} />
-      <h2 className="text-center mt-2">{event.title}</h2>
-      <p className="text-center">{event.description}</p>
+      <div className="container my-5">
+
+
+        <div className="row align-items-center mb-5">
+
+
+          <div className="col-12 col-md-6 mb-4 mb-md-0">
+            <img
+              src={event.image}
+              alt="Event"
+              className="img-fluid rounded shadow"
+              style={{ maxHeight: "450px", objectFit: "cover", width: "100%" }}
+            />
+          </div>
+
+
+          <div className="col-12 col-md-6">
+            <h2 className="mb-3 fw-bold">{event.title}</h2>
+            <p className="text-muted text-justify">{event.description}</p>
+          </div>
+        </div>
+
+
+        <div className="mb-4">
+          <h4 className="fw-semibold">About the Event</h4>
+          <p className="mt-2 text-justify">{event.content}</p>
+        </div>
+
+        {event.highlights && (
+          <div className="mb-5">
+            <h4 className="fw-semibold">Event Highlights</h4>
+            <ul className="mt-3">
+              {event.highlights.map((obj, index) => (
+                <li key={index} className="mb-2">
+                  {obj}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+
+        {event.content1 && (
+          <div className="mb-5">
+            <h4 className="fw-semibold">Event Highlights</h4>
+            <ul className="mt-3">
+              {event.content1.map((obj, index) => (
+                <li key={index} className="mb-2">
+                  {obj}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {event.content2 && (
+          <div className="mb-5">
+            <h4 className="fw-semibold">Event Highlights</h4>
+            <ul className="mt-3">
+              {event.content2.map((obj, index) => (
+                <li key={index} className="mb-2">
+                  {obj}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+
+        {event.content3 && (
+          <div className="mb-5">
+            <h4 className="fw-semibold">Event Highlights</h4>
+            <ul className="mt-3">
+              {event.content3.map((obj, index) => (
+                <li key={index} className="mb-2">
+                  {obj}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
     </div>
-  </div>
+  );
+};
 
-  )
-}
-
-export default EventDetails
+export default EventDetails;

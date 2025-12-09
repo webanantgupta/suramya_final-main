@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay,EffectFade } from "swiper/modules";
+import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -57,7 +57,7 @@ const SliderArea = () => {
                           <div className="slide_buttons">
 
                             <a
-                              href="contact.html"
+                              href="/"
                               className="theme_button color1 min_width_button"
                             >
                               Be Proud!
@@ -114,7 +114,7 @@ const SliderArea = () => {
                           <div className="slide_buttons">
 
                             <a
-                              href="contact.html"
+                              href="/"
                               className="theme_button color1 min_width_button"
                             >
                               Be Proud!
@@ -171,7 +171,7 @@ const SliderArea = () => {
                           <div className="slide_buttons">
 
                             <a
-                              href="contact.html"
+                              href="/"
                               className="theme_button color1 min_width_button"
                             >
                               Be Proud!
@@ -191,113 +191,111 @@ const SliderArea = () => {
       <section className="intro_section page_mainslider ds all-scr-cover bottom-overlap-teasers">
 
         <Swiper
+          cssMode={false}
           modules={[Navigation, Pagination, Autoplay, EffectFade]}
           navigation={true}
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 3000 }}
+          // pagination={{ clickable: true }}
+          rewind={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false
+          }}
           loop={true}
-          effect="fade"
-          fadeEffect={{ crossFade: true }}
-          className="flexslider"
+          // effect="fade"
+
+          className="swiper-main-slider"
         >
 
           <SwiperSlide>
-            <li>
-              <div className="slide-image-wrap slider_image">
-                <img src="https://news.uoregon.edu/sites/default/files/2024-07/lgbtq-with-flag.jpg" alt=""  />
-              </div>
-              <Container>
-                <Row>
-                  <div className="col-sm-12 text-center">
-                    <div className="slide_description_wrapper">
-                      <div className="slide_description">
 
-                        <div className="intro-layer" data-animation="fadeInRight">
-                          LGBT Community Center
-                        </div>
+            <div className="slide-image-wrap slider_image">
+              <img src="https://news.uoregon.edu/sites/default/files/2024-07/lgbtq-with-flag.jpg" alt="" />
+            </div>
+            <Container>
+              <Row>
+                <div className="col-sm-12 text-center">
+                  <div className="slide_description_wrapper">
+                    <div className="slide_description">
 
-                        <div className="intro-layer" data-animation="fadeInLeft">
-                          <h2>
-                            <span className="highlight3">Become The Change</span>
-                            <br /> You Want To See
-                          </h2>
-                        </div>
-
-                        <div className="intro-layer" data-animation="fadeInRight">
-                          <p className="thin">
-                            <em>
-                              Details on the huge Calvin Sandoval celebration
-                              coming to Hillcrest on February 27, 2018
-                            </em>
-                          </p>
-                        </div>
-
-                        <div className="intro-layer" data-animation="fadeInUp">
-                          <div className="slide_buttons">
-                            <a href="contact.html" className="theme_button color1 min_width_button">
-                              Be Proud!
-                            </a>
-                          </div>
-                        </div>
-
+                      <div className="intro-layer" data-animation="fadeInRight">
+                        LGBT Community Center
                       </div>
+
+                      <div className="intro-layer" data-animation="fadeInLeft">
+                        <h2>
+                          <span className="highlight3">Become The Change</span>
+                          <br /> You Want To See
+                        </h2>
+                      </div>
+
+                      <div className="intro-layer" data-animation="fadeInRight">
+                        <p className="thin">
+                          <em>
+                            Details on the huge Calvin Sandoval celebration
+                            coming to Hillcrest on February 27, 2018
+                          </em>
+                        </p>
+                      </div>
+
+                      <div className="intro-layer" data-animation="fadeInUp">
+                        <div className="slide_buttons">
+                          <a href="/" className="theme_button color1 min_width_button">
+                            Be Proud!
+                          </a>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
-                </Row>
-              </Container>
-            </li>
+                </div>
+              </Row>
+            </Container>
+
           </SwiperSlide>
           <SwiperSlide>
-            <li>
-              <div className="slide-image-wrap slider_image">
-                <img src="https://img.freepik.com/free-photo/closeup-diverse-people-joining-their-hands_53876-96081.jpg?semt=ais_hybrid&w=740&q=80" alt="" />
-              </div>
-              <Container>
-                <Row>
-                  <div className="col-sm-12 text-center">
-                    <div className="slide_description_wrapper">
-                      <div className="slide_description">
+            <div className="slide-image-wrap slider_image">
+              <img src="https://img.freepik.com/free-photo/closeup-diverse-people-joining-their-hands_53876-96081.jpg?semt=ais_hybrid&w=740&q=80" alt="" />
+            </div>
+            <Container>
+              <Row>
+                <div className="col-sm-12 text-center">
+                  <div className="slide_description_wrapper">
+                    <div className="slide_description">
 
-                        <div className="intro-layer" data-animation="fadeInRight">
-                          LGBT Community Center
-                        </div>
-
-                        <div className="intro-layer" data-animation="fadeInLeft">
-                          <h2>
-                            <span className="highlight3">Become The Change</span>
-                            <br /> You Want To See
-                          </h2>
-                        </div>
-
-                        <div className="intro-layer" data-animation="fadeInRight">
-                          <p className="thin">
-                            <em>
-                              Details on the huge Calvin Sandoval celebration
-                              coming to Hillcrest on February 27, 2018
-                            </em>
-                          </p>
-                        </div>
-
-                        <div className="intro-layer" data-animation="fadeInUp">
-                          <div className="slide_buttons">
-                            <a href="contact.html" className="theme_button color1 min_width_button">
-                              Be Proud!
-                            </a>
-                          </div>
-                        </div>
-
+                      <div className="intro-layer" data-animation="fadeInRight">
+                        LGBT Community Center
                       </div>
+
+                      <div className="intro-layer" data-animation="fadeInLeft">
+                        <h2>
+                          <span className="highlight3">Become The Change</span>
+                          <br /> You Want To See
+                        </h2>
+                      </div>
+
+                      <div className="intro-layer" data-animation="fadeInRight">
+                        <p className="thin">
+                          <em>
+                            Details on the huge Calvin Sandoval celebration
+                            coming to Hillcrest on February 27, 2018
+                          </em>
+                        </p>
+                      </div>
+
+                      <div className="intro-layer" data-animation="fadeInUp">
+                        <div className="slide_buttons">
+                          <a href="/" className="theme_button color1 min_width_button">
+                            Be Proud!
+                          </a>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
-                </Row>
-              </Container>
-            </li>
+                </div>
+              </Row>
+            </Container>
           </SwiperSlide>
-
-
-
-
-
 
         </Swiper>
       </section>
