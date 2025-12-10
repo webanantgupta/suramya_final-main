@@ -8,6 +8,7 @@ import 'lightgallery/css/lg-thumbnail.css';
 // If you want you can use SCSS instead of css
 import 'lightgallery/scss/lightgallery.scss';
 import 'lightgallery/scss/lg-zoom.scss';
+import { Link } from 'react-router-dom';
 
 // import plugins if you need
 // import lgThumbnail from 'lightgallery/plugins/thumbnail';
@@ -55,6 +56,7 @@ const Gallery = () => {
             return <div key={index} className='gallery_items'>
                   <img src={obj.image} alt={obj.title} />
                   <h4 className='text-center'>{obj.title}</h4>
+                  <Link to="">View More</Link>
             </div>
            })}
         </div>
