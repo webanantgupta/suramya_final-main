@@ -15,7 +15,7 @@ const EventDetails = () => {
 
       <div className="container my-5">
 
-
+ 
         <div className="row align-items-center mb-5">
 
 
@@ -55,20 +55,20 @@ const EventDetails = () => {
         )}
 
 
-        {event.content1 && (
+        {/* {event.content && (
           <div className="mb-5">
             <h4 className="fw-semibold">Event Highlights</h4>
             <ul className="mt-3">
-              {event.content1.map((obj, index) => (
+              {event.content.map((obj, index) => (
                 <li key={index} className="mb-2">
                   {obj}
                 </li>
               ))}
             </ul>
           </div>
-        )}
+        )} */}
 
-        {event.content2 && (
+        {/* {event.content2 && (
           <div className="mb-5">
             <h4 className="fw-semibold">Event Highlights</h4>
             <ul className="mt-3">
@@ -79,10 +79,10 @@ const EventDetails = () => {
               ))}
             </ul>
           </div>
-        )}
+        )} */}
 
 
-        {event.content3 && (
+        {/* {event.content3 && (
           <div className="mb-5">
             <h4 className="fw-semibold">Event Highlights</h4>
             <ul className="mt-3">
@@ -93,7 +93,7 @@ const EventDetails = () => {
               ))}
             </ul>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );
