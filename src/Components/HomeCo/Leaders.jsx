@@ -29,7 +29,7 @@ const Leaders = () => {
                                     </Link>
                                 </div>
                             </div>
-                            <p className="text-justify">The strength of Suramya Life Foundation lies in its leadership — individuals who bring diverse professional experiences, compassion, and unwavering commitment to social change.</p>
+                            <p className="text-justify mt-sm-4">The strength of Suramya Life Foundation lies in its leadership — individuals who bring diverse professional experiences, compassion, and unwavering commitment to social change.</p>
                             <Swiper
                                 cssMode={false}
                             loop={true}

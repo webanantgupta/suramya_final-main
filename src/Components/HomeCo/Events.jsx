@@ -61,10 +61,11 @@ const Events = () => {
                                 return <SwiperSlide>
                                     <div className="col-12 col-sm-6 col-lg-3 mb-4 w-100" style={{height:"600px"}} key={index}>
                                         <Card className="card_container h-100">
-                                            <img src={obj.image} alt="image" style={{ height: "400px", objectFit: "cover" }} />
+                                            <img src={obj.image} alt="image" style={{ height: "300px", objectFit: "cover" }} />
                                             <CardBody className="d-flex flex-column ">
                                                 <h4 className="mt-auto text-center">{obj.title}</h4>
                                                 <p className="mt-auto text-justify">{obj.description}</p>
+
                                                 <Link to={`/event/${obj.id}`} className="mt-auto">Read more</Link>
                                             </CardBody>
                                         </Card>
