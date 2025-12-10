@@ -5,13 +5,15 @@ import { Link } from "react-router-dom";
 import PageHeader from "../../Common/PageHeader";
 
 
+
 const OurImpact = () => {
     return (
         <>
             <section
-                className="pb-2 section_padding_top_65 section_padding_bottom_65"
+            // style={{backgroundColor:"orange"}}
+                className="pb-2 pt-3"
                 id="contact-sec">
-                <Container className="pb-5">
+                <Container className="" >
                     <Row>
                         <Col sm={12} className=" bottommargin_0  text-center mb-5"   >
                             <h1 className="section_header color mb-3">Our Impact At a Glance</h1>

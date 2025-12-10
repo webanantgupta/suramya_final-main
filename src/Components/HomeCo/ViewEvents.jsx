@@ -12,10 +12,10 @@ const ViewEvents = () => {
         <PageHeader title={"Events"} />
         <div className="container p-3 mt-2 mt-sm-4  ">
             <div className="my-5">
-                <h5 className="text-center lead">At Suramya Life Foundation, every initiative is more than an event —
+                <h2 className="text-center">At Suramya Life Foundation, every initiative is more than an event —
                     it is a step toward dignity, awareness, and emotional empowerment.
-                </h5>
-                <p className="text-justify">In just a few years, we have become one of Uttar Pradesh’s most active organisations working at the intersection of mental health, inclusion, community empowerment, and capacity building.
+                </h2>
+                <p className="text-center lead">In just a few years, we have become one of Uttar Pradesh’s most active organisations working at the intersection of mental health, inclusion, community empowerment, and capacity building.
                     Our journey reflects our commitment to touch lives, shift mindsets, and build a compassionate world.
                 </p>
             </div>

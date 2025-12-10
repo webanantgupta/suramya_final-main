@@ -1,31 +1,52 @@
 [
   {
     "id": 1,
-    "image": "  /img/galleryImage/gallery1.png"
+    "title":"Police Sensitization Training",
+    "image":"/img/homeEventImg/policetraning.png"
   },
   {
     "id": 2,
-    "image": "  /img/galleryImage/gallery2.png"
-   
+    "title":"CME with KGMU & High Commission of Canada",
+    "image": "/img/homeEventImg/cme.png"
   },
   {
     "id": 3,
-    "image": "  /img/galleryImage/gallery3.png"
+    "title":"CLE with RMNLU & High Commission of India",
+    "image": "/public/img/homeEventImg/rml.png"
   },
     {
     "id": 4,
-    "image": "  /img/galleryImage/gallery4.png"
+"title":"Samvedna – Media Sensitization",
+    "image": "/img/homeEventImg/mediasensitization.png"
   },
     {
     "id": 5,
-    "image": "  /img/galleryImage/gallery5.png"
+    "title":"Transgender Cultural & Literature Festival",
+    "image": "/img/homeEventImg/man1.png"
   },
     {
     "id": 6,
-    "image": "  /img/galleryImage/gallery6.png"
+    "title":"Queer Eve 2022",
+    "image": "/img/homeEventImg/queereve.png"
   },
    {
     "id": 7,
-    "image": "  /img/galleryImage/gallery7.png"
+    "title":"Workshops in Schools & Universities",
+    "image":"/img/homeEventImg/cyberbulling.png"
+  },
+   {
+    "id": 8,
+    "title":"Project Phulwari Training",
+    "image":"/img/homeEventImg/phulwari.png"
+  },
+   {
+    "id": 9,
+    "title":"Corporate Mental Health Sessions",
+    "image":"/img/homeEventImg/mentalhealth.png"
+  },
+  {
+    "id": 10,
+    "title":"Community Outreach Events",
+    "image":"/img/homeEventImg/healthstory.png"
   }
 ]

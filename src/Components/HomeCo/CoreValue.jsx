@@ -34,7 +34,7 @@ const CoreValue = () => {
     ];
     return (
         <>
-            <section id="team" className=" section_padding_top_65 section_padding_bottom_65 mt-5 core_pillers_section bg-light">
+            <section id="team" className=" section_padding_top_65  core_pillers_section bg-light">
                 <Container >
                     <Row>
                         <Col sm={12} className=" bottommargin_0 to_animate text-center mb-5" data-animation="fadeInUp"  >

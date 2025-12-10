@@ -1,7 +1,8 @@
 import React from 'react'
 import PageHeader from '../Common/PageHeader'
 import { Card, CardBody, CardTitle, Col, Row } from 'reactstrap'
-
+const weOfferImg = "/img/homeEventImg/mediasensitization.png"
+const weServeImg = "/public/img/homeEventImg/cyberbulling.png"
 const AboutUs = () => {
     const value = [
         {
@@ -23,6 +24,29 @@ const AboutUs = () => {
         {
             title: "Impact",
             text: "Action that transforms lives — one workshop, one conversation, one community at a time."
+        }
+    ]
+
+    const approach = [
+        {
+            title: "Awareness & Sensitization",
+            text: "Changing mindsets through workshops, community interactions, and real-world conversations."
+        },
+        {
+            title: "Training & Capacity Building",
+            text: "Developing leaders, educators, police personnel, healthcare providers, and institutions through ToT models."
+        },
+        {
+            title: "Advocacy & Policy Support",
+            text: "Working with government bodies and stakeholders to strengthen systems of care."
+        },
+        {
+            title: "Community Programs",
+            text: "Safe spaces, peer circles, mental health sessions, and leadership development for all age groups."
+        },
+        {
+            title: "Collaborations & CSR",
+            text: "Co-creating impact through corporate partnerships, educational institutions, and international organizations."
         }
     ]
     return (
@@ -47,7 +71,7 @@ const AboutUs = () => {
                                     className="col-md-12 "
                                     data-animation="fadeInRight"
                                     data-delay="300">
-                                    <h2 className="section_header color4">                                        Suramya Life Foundation is a Section 8 non-profit organization established in 2022 in Lucknow, Uttar Pradesh.
+                                    <h2 className="section_header color4">Suramya Life Foundation is a Section 8 non-profit organization established in 2022 in Lucknow, Uttar Pradesh.
                                     </h2>
 
                                     <p className='aboutus_text'>
@@ -97,7 +121,7 @@ const AboutUs = () => {
                             <Row className=" d-flex justify-content-center pt-4">
                                 {value?.map((data, idx) => (
                                     <Col className="mb-3" key={idx}>
-                                        <Card className='value_card' style={{ height: "180px" }}>
+                                        <Card className='approach_card' style={{ height: "180px" }}>
                                             <CardBody>
                                                 <h4 style={{ color: "#f3702b" }}>{data.title} </h4>
                                                 <p className='aboutus_text'>{data.text}</p>
@@ -106,7 +130,7 @@ const AboutUs = () => {
                                     </Col>
                                 ))}
                             </Row>
-                            <Row>
+                            {/* <Row>
                                 <Col md={12}
                                     data-animation="fadeInRight"
                                     data-delay="300">
@@ -123,61 +147,64 @@ const AboutUs = () => {
 
                                     </p>
                                 </Col>
-                            </Row>
+                            </Row> */}
                             <div className='col-md-12 mt-5'>
                                 <h2 className='section_header color4'>Our Approach</h2>
                                 <p className='aboutus_text'>We bridge gaps in mental health, emotional support, and social inclusion through:</p>
+                                <div className="approach_grid">
+                                    {approach?.map((data, idx) => (
+                                        <div className="mb-3 approach_card" key={idx} >
+                                            <div className='value_card1'>
+                                                <div className='content_card'>
+                                                    <h5 style={{ color: "#f3702b" }}>{data.title} </h5>
+                                                    <p className=' text-justify'>{data.text}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
 
-                                <div className='aboutus_text'>
-                                    <p>
-                                        <strong>Awareness & Sensitization</strong>
-                                        <p>Changing mindsets through workshops, community interactions, and real-world conversations.</p>
-                                    </p>
-                                    <p>
-                                        <strong>Training & Capacity Building</strong>
-                                        <p>Developing leaders, educators, police personnel, healthcare providers, and institutions through ToT models.</p>
-                                    </p>
-                                    <p>
-                                        <strong>Advocacy & Policy Support</strong>
-                                        <p>Working with government bodies and stakeholders to strengthen systems of care.</p>
-                                    </p>
-                                    <p>
-                                        <strong>Community Programs</strong>
-                                        <p>Safe spaces, peer circles, mental health sessions, and leadership development for all age groups.</p>
-                                    </p>
-                                    <p>
-                                        <strong>Collaborations & CSR</strong>
-                                        <p>Co-creating impact through corporate partnerships, educational institutions, and international organizations.</p>
-                                    </p>
+
+                                <div className='weoffer_card'>
+                                    <div className='weoffer_card1'>
+                                        <h2 className='section_header color4'>What We Offer</h2>
+                                        <ul className='aboutus_text'>
+                                            <li>Sensitization & awareness workshops</li>
+                                            <li>Mental health training and life-skills programs</li>
+                                            <li>Trauma-informed emotional support</li>
+                                            <li>LGBTQIA+ sensitization for police, educators & hospitals</li>
+                                            <li>Elderly wellbeing workshops and engagement activities</li>
+                                            <li>Women-centric wellbeing & empowerment programs</li>
+                                            <li>Research-based consultancy & advisory</li>
+                                            <li>CSR partnerships and corporate wellbeing programs</li>
+                                            <li>ToT-based modules for schools, colleges & govt. departments</li>
+                                        </ul>
+                                    </div>
+                                    <div className='weoffer_card2'>
+                                        <img src={weOfferImg} alt="image" />
+                                    </div>
                                 </div>
-                                <div className='col-md-12 mt-5'>
-                                    <h2 className='section_header color4'>What We Offer</h2>
-                                    <ul className='aboutus_text'>
-                                        <li>Sensitization & awareness workshops</li>
-                                        <li>Mental health training and life-skills programs</li>
-                                        <li>Trauma-informed emotional support</li>
-                                        <li>LGBTQIA+ sensitization for police, educators & hospitals</li>
-                                        <li>Elderly wellbeing workshops and engagement activities</li>
-                                        <li>Women-centric wellbeing & empowerment programs</li>
-                                        <li>Research-based consultancy & advisory</li>
-                                        <li>CSR partnerships and corporate wellbeing programs</li>
-                                        <li>ToT-based modules for schools, colleges & govt. departments</li>
-                                    </ul>
+                                <div className='weserve_card'>
+                                    <div className='weserve_card1'>
+                                        <h2 className='section_header color4'>Who We Serve</h2>
+                                        <ul className='aboutus_text'>
+                                            <li>Women navigating life transitions</li>
+                                            <li>Adolescents & youth discovering identity and confidence</li>
+                                            <li>Corporate employees dealing with stress, burnout, or imbalance</li>
+                                            <li>LGBTQIA+ individuals seeking dignity, safety & acceptance</li>
+                                            <li>Elderly individuals needing connection and emotional support</li>
+                                            <li>Survivors of emotional & mental abuse</li>
+                                            <li>Schools, universities & educators</li>
+                                            <li>Government departments, law enforcement & medical professionals</li>
+                                        </ul>
+                                    </div>
+                                    <div className='weserve_card2'>
+                                        <img src={weServeImg} alt="image" />
+                                    </div>
+
+                                   
                                 </div>
-                                <div className='col-md-12 mt-5'>
-                                    <h2 className='section_header color4'>Who We Serve</h2>
-                                    <ul className='aboutus_text'>
-                                        <li>Women navigating life transitions</li>
-                                        <li>Adolescents & youth discovering identity and confidence</li>
-                                        <li>Corporate employees dealing with stress, burnout, or imbalance</li>
-                                        <li>LGBTQIA+ individuals seeking dignity, safety & acceptance</li>
-                                        <li>Elderly individuals needing connection and emotional support</li>
-                                        <li>Survivors of emotional & mental abuse</li>
-                                        <li>Schools, universities & educators</li>
-                                        <li>Government departments, law enforcement & medical professionals</li>
-                                    </ul>
-                                    <p className='aboutus_text'>Because every life stage and every identity deserves emotional strength, safe spaces, and supportive ecosystems.</p>
-                                </div>
+                                 <p className='aboutus_text text-center'>Because every life stage and every identity deserves emotional strength, safe spaces, and supportive ecosystems.</p>
                             </div>
                         </div>
                     </section>

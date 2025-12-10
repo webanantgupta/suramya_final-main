@@ -30,9 +30,9 @@ const Events = () => {
                 <div>
                     <div className="text-start mb-4 d-flex justify-content-between align-items-center">
                         <div>
-                            <h2 className="fs-1">Events</h2>
+                            <h2 className="fs-1 section_header color">Events</h2>
                         </div>
-                        <div>
+                        <div className="event_btn">
                             <Link to="/viewevents" className="theme_button color2 margin_0">View All</Link>
                         </div>
                     </div>
@@ -47,9 +47,9 @@ const Events = () => {
                             }}
                             navigation={true}
                             pagination={false}
-                            mousewheel={true}
+                            // mousewheel={true}
                             keyboard={true}
-                            modules={[Navigation, Pagination, Mousewheel, Keyboard,Autoplay]}
+                            modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
                             breakpoints={{
                                 640: { slidesPerView: 1 },
                                 768: { slidesPerView: 2, spaceBetween: 30 },
@@ -59,10 +59,10 @@ const Events = () => {
 
                             {newData.map((obj, index) => {
                                 return <SwiperSlide>
-                                    <div className="col-12 col-sm-6 col-lg-3 mb-4 w-100 h-100" key={index}>
+                                    <div className="col-12 col-sm-6 col-lg-3 mb-4 w-100" style={{height:"600px"}} key={index}>
                                         <Card className="card_container h-100">
-                                            <img src={obj.image} alt="image" style={{ height: "300px", objectFit: "cover" }} />
-                                            <CardBody className="d-flex flex-column">
+                                            <img src={obj.image} alt="image" style={{ height: "400px", objectFit: "cover" }} />
+                                            <CardBody className="d-flex flex-column ">
                                                 <h4 className="mt-auto text-center">{obj.title}</h4>
                                                 <p className="mt-auto text-justify">{obj.description}</p>
                                                 <Link to={`/event/${obj.id}`} className="mt-auto">Read more</Link>
@@ -70,10 +70,11 @@ const Events = () => {
                                         </Card>
                                     </div>
                                 </SwiperSlide>
-
                             })}
                         </Swiper>
-
+                        <div className="event_btn_mobile">
+                            <Link to="/viewevents" className="theme_button color2 margin_0">View All</Link>
+                        </div>
                     </div>
                 </div>
 

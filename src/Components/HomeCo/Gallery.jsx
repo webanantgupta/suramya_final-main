@@ -10,8 +10,8 @@ import 'lightgallery/scss/lightgallery.scss';
 import 'lightgallery/scss/lg-zoom.scss';
 
 // import plugins if you need
-import lgThumbnail from 'lightgallery/plugins/thumbnail';
-import lgZoom from 'lightgallery/plugins/zoom';
+// import lgThumbnail from 'lightgallery/plugins/thumbnail';
+// import lgZoom from 'lightgallery/plugins/zoom';
 
 
 
@@ -22,14 +22,14 @@ import lgZoom from 'lightgallery/plugins/zoom';
 const Gallery = () => {
 
     console.log(galleryImg);
-    const onInit = () => {
-        console.log("sdvdsv");
+    // const onInit = () => {
+    //     console.log("sdvdsv");
 
-    }
+    // }
 
     return <div>
         <PageHeader title="Gallery" />
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
             <div className="collage">
                 <LightGallery
                     onInit={onInit}
@@ -49,6 +49,14 @@ const Gallery = () => {
                     ))}
                 </LightGallery>
             </div>
+        </div> */}
+        <div  className='gallery_card'>
+           {galleryImg?.map((obj,index)=>{
+            return <div key={index} className='gallery_items'>
+                  <img src={obj.image} alt={obj.title} />
+                  <h4 className='text-center'>{obj.title}</h4>
+            </div>
+           })}
         </div>
     </div>
 }
