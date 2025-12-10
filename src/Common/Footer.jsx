@@ -20,7 +20,7 @@ const Footer = () => {
 
                   <img src="/wlogo.png" alt="" />
                 </div>
-                <p>
+                <p className='text-sm-justify'>
                   Every person deserves to feel emotionally supported, mentally strong, and socially accepted — no matter who they are or where they come from.</p>
                 <p className="topmargin_25">
                   <div className="page_social d-flex justify-content-center gap-3">

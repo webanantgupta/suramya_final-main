@@ -56,7 +56,7 @@ const AboutUs = () => {
                     <PageHeader title="Who we are" />
 
 
-                    <section className="ls section_padding_top_110  section_padding_bottom_110 columns_padding_30" id="about">
+                    <section className="ls section_padding_top_50  section_padding_bottom_50 columns_padding_30" id="about">
                         <div className="container">
                             <div className="row">
                                 {/* <div
@@ -118,7 +118,7 @@ const AboutUs = () => {
                                         and accessible, enabling every individual to live with dignity, clarity, and purpose. </p>
                                 </div>
                             </div>
-                            <Row className=" d-flex justify-content-center pt-4">
+                            <Row className=" d-flex justify-content-center pt-4 approach_grid">
                                 {value?.map((data, idx) => (
                                     <Col className="mb-3" key={idx}>
                                         <Card className='approach_card' style={{ height: "180px" }}>
@@ -204,7 +204,7 @@ const AboutUs = () => {
 
                                    
                                 </div>
-                                 <p className='aboutus_text text-center'>Because every life stage and every identity deserves emotional strength, safe spaces, and supportive ecosystems.</p>
+                                 <p className=' text-center'>Because every life stage and every identity deserves emotional strength, safe spaces, and supportive ecosystems.</p>
                             </div>
                         </div>
                     </section>

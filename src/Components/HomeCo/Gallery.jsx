@@ -56,7 +56,7 @@ const Gallery = () => {
             return <div key={index} className='gallery_items'>
                   <img src={obj.image} alt={obj.title} />
                   <h4 className='text-center'>{obj.title}</h4>
-                  <Link to="">View More</Link>
+                  <Link to={`/gallery/${obj.id}`}>View More</Link>
             </div>
            })}
         </div>

@@ -15,6 +15,7 @@ import Donate from '../Components/HomeCo/Donate'
 import Gallery from '../Components/HomeCo/Gallery'
 import OurImpact from '../Components/HomeCo/OurImpact'
 import Impact from '../Pages/Impact'
+import GalleryDetails from '../Components/HomeCo/GalleryDetails'
 
 const AllRoutes = () => {
     return (
@@ -32,6 +33,7 @@ const AllRoutes = () => {
                     <Route path='/contact' element={<Contact/>}/>
                     <Route path='/donate' element={<Donate/>}/>
                     <Route path='/gallery' element={<Gallery/>}/>
+                    <Route path='/gallery/:id' element={<GalleryDetails/>}/>
                     <Route path='/impact' element={<Impact/>}/>
                 </Routes>
                 <Footer/>

@@ -254,10 +254,18 @@
   }
 }
 
-@media(min-width:801px) and (max-width:1800px){
+@media(min-width:801px) and (max-width:1400px){
+  .approach_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+   .approach_grid > .value_card1:nth-last-child(-n + 2) {
+    grid-column: span 2 !important;
+  }
   .value_card1{
-    height: 250px !important;
-    width: 230px;
+    height: 200px !important;
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
@@ -271,6 +279,25 @@
   }
   
   .content_card p{
+    margin-top: 30px;
+  }
+}
+
+@media (min-width:1401px){
+  .approach_grid{
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+   .value_card1{
+    height: 200px !important;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+   .content_card p{
     margin-top: 30px;
   }
 }
@@ -316,6 +343,7 @@
   display: flex;
   flex-direction: row-reverse;
   margin-top: 50px;
+  gap: 20px;
 }
 
 .weserve_card1{
@@ -354,6 +382,15 @@
 
 @media (min-width:801px) and (max-width:1500px) {
   .weserve_card{
+    gap: 20px;
+  }
+  .weserve_card2{
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width:1501px){
+   .weserve_card{
     gap: 20px;
   }
   .weserve_card2{
@@ -401,7 +438,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px !important;
+    /* margin-top: 20px !important; */
   }
 }
 
@@ -552,7 +589,4 @@
   }
 }
 
-@media (max-width:450px){
-  .card_container{
 
-}
