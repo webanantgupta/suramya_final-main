@@ -2,7 +2,7 @@ import React from 'react'
 import PageHeader from '../Common/PageHeader'
 import { Card, CardBody, CardTitle, Col, Row } from 'reactstrap'
 const weOfferImg = "/img/homeEventImg/mediasensitization.png"
-const weServeImg = "/public/img/homeEventImg/cyberbulling.png"
+const weServeImg = "/img/homeEventImg/cyberbulling.png"
 const AboutUs = () => {
     const value = [
         {
