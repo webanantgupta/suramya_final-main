@@ -1,4 +1,5 @@
 import PageHeader from "../../Common/PageHeader";
+import qrcode from "../../../public/img/homeEventImg/qrcode.png"
 
 
 const Donate = () => {
@@ -14,7 +15,7 @@ const Donate = () => {
                 <div className="donate_row">
 
                     <div className="donate_head1">
-                        <h4 className="text-center" style={{ color: "orange" }}>Your contribution helps us run</h4>
+                        <h4 className="text-start" style={{ color: "orange" }}>Your contribution helps us run</h4>
                         <p>LGBTQIA+ sensitization programs</p>
                         <p>School life-skills projects</p>
                         <p>Mental health training sessions</p>
@@ -24,7 +25,7 @@ const Donate = () => {
                     </div>
 
                     <div className="donate_bank">
-                        <h4 className="text-center" style={{ color: "orange" }}>Bank Transfer Details</h4>
+                        <h4 className="text-start" style={{ color: "orange" }}>Bank Transfer Details</h4>
                         <div className="mt-3">
                             <p>Account Name: Suramya Life Foundation</p>
                             <p>Bank: (Add bank name)</p>
@@ -40,7 +41,14 @@ const Donate = () => {
 
                 <div className="donate_upi my-4">
                     <h4 className="text-center" style={{ color: "orange" }}>Donate via UPI</h4>
+                    <div className="donate_upi_element">
+                        <div className="upi_element1">
                     <p className="mt-2">UPI ID: (Add your UPI ID)</p>
+                        </div>
+                        <div className="qrcode ">
+                            <img src={qrcode} alt="qrcode" />
+                        </div>
+                    </div>
                 </div>
 
             </div>

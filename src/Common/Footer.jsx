@@ -29,7 +29,6 @@ const Footer = () => {
                     <Link to="https://www.instagram.com/suramyalife" target='_blank' title="Instagram" ><FaInstagram /></Link>
                     <Link to="https://www.youtube.com/@suramyalifefoundation" target='_blank' title="Youtube" ><FaYoutube /></Link>
                   </div>
-
                 </p>
               </div>
             </div>

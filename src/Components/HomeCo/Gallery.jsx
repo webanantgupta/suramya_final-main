@@ -8,7 +8,7 @@ import 'lightgallery/css/lg-thumbnail.css';
 // If you want you can use SCSS instead of css
 import 'lightgallery/scss/lightgallery.scss';
 import 'lightgallery/scss/lg-zoom.scss';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 // import plugins if you need
 // import lgThumbnail from 'lightgallery/plugins/thumbnail';
@@ -21,7 +21,7 @@ import { Link } from 'react-router-dom';
 
 
 const Gallery = () => {
-
+    const navigate = useNavigate();
     console.log(galleryImg);
     // const onInit = () => {
     //     console.log("sdvdsv");
@@ -51,14 +51,14 @@ const Gallery = () => {
                 </LightGallery>
             </div>
         </div> */}
-        <div  className='gallery_card'>
-           {galleryImg?.map((obj,index)=>{
-            return <div key={index} className='gallery_items'>
-                  <img src={obj.image} alt={obj.title} />
-                  <h4 className='text-center'>{obj.title}</h4>
-                  <Link to={`/gallery/${obj.id}`}>View More</Link>
-            </div>
-           })}
+        <div className='gallery_card'>
+            {galleryImg?.map((obj, index) => {
+                return <div key={index} className='gallery_items' onClick={() => navigate(`/gallery/${obj.id}`, { state: obj })}>
+                    <img src={obj.image} alt={obj.title} />
+                    <h4 className='text-center'>{obj.title}</h4>
+                    <p className='text-primary' >View Details</p>
+                </div>
+            })}
         </div>
     </div>
 }

@@ -2,51 +2,121 @@
   {
     "id": 1,
     "title":"Police Sensitization Training",
-    "image":"/img/homeEventImg/policetraning.png"
+    "image":"/img/homeEventImg/policetraning.png",
+    "images": [
+      "/img/homeEventImg/policetraning.png",
+      "/img/homeEventImg/police1.png",
+      "/img/homeEventImg/police2.png",
+      "/img/homeEventImg/police3.png",
+      "/img/homeEventImg/police4.png"
+    ]
   },
   {
     "id": 2,
     "title":"CME with KGMU & High Commission of Canada",
-    "image": "/img/homeEventImg/cme.png"
+    "image": "/img/homeEventImg/cme.png",
+    "images":[
+        "/img/homeEventImg/cme.png",
+        "/img/homeEventImg/cme1.png",
+        "/img/homeEventImg/cme2.png",
+        "/img/homeEventImg/cme3.png",
+        "/img/homeEventImg/cme4.png"
+    ]
   },
   {
     "id": 3,
     "title":"CLE with RMNLU & High Commission of India",
-    "image": "/img/homeEventImg/rml.png"
+    "image": "/img/homeEventImg/rml.png",
+     "images":[
+        "/img/homeEventImg/rml.png",
+        "/img/homeEventImg/rml1.png",
+        "/img/homeEventImg/rml2.png",
+        "/img/homeEventImg/rml3.png",
+        "/img/homeEventImg/rml4.png"
+    ]
   },
     {
     "id": 4,
 "title":"Samvedna – Media Sensitization",
-    "image": "/img/homeEventImg/mediasensitization.png"
+    "image": "/img/homeEventImg/mediasensitization.png",
+     "images":[
+        "/img/homeEventImg/mediasensitization.png",
+        "/img/homeEventImg/samvedna1.png",
+        "/img/homeEventImg/samvedna2.png",
+        "/img/homeEventImg/samvedna3.png",
+        "/img/homeEventImg/samvedna4.png"
+    ]
   },
     {
     "id": 5,
     "title":"Transgender Cultural & Literature Festival",
-    "image": "/img/homeEventImg/man1.png"
+    "image": "/img/homeEventImg/man1.png",
+    "images": [
+      "/img/galleryImage/gallery1.png",
+      "/img/galleryImage/gallery2.png",
+      "/img/galleryImage/gallery3.png",
+      "/img/galleryImage/gallery4.png",
+      "/img/galleryImage/gallery5.png",
+      "/img/galleryImage/gallery6.png"
+    ]
   },
     {
     "id": 6,
     "title":"Queer Eve 2022",
-    "image": "/img/homeEventImg/queereve.png"
+    "image": "/img/homeEventImg/queereve.png",
+      "images":[
+        "/img/homeEventImg/queereve.png",
+        "/img/homeEventImg/queereve1.png",
+        "/img/homeEventImg/queereve2.png",
+        "/img/homeEventImg/queereve3.png",
+        "/img/homeEventImg/queereve4.png"
+    ]
   },
    {
     "id": 7,
     "title":"Workshops in Schools & Universities",
-    "image":"/img/homeEventImg/cyberbulling.png"
+    "image":"/img/homeEventImg/cyberbulling.png",
+     "images":[
+        "/img/homeEventImg/cyberbulling.png",
+        "/img/homeEventImg/school1.png",
+        "/img/homeEventImg/school2.png",
+        "/img/homeEventImg/school3.png",
+        "/img/homeEventImg/school4.png"
+    ]
   },
    {
     "id": 8,
     "title":"Project Phulwari Training",
-    "image":"/img/homeEventImg/phulwari.png"
+    "image":"/img/homeEventImg/phulwari.png",
+       "images":[
+        "/img/homeEventImg/phulwari.png",
+        "/img/homeEventImg/phulwari1.png",
+        "/img/homeEventImg/phulwari2.png",
+        "/img/homeEventImg/phulwari3.png",
+        "/img/homeEventImg/phulwari4.png"
+    ]
   },
    {
     "id": 9,
     "title":"Corporate Mental Health Sessions",
-    "image":"/img/homeEventImg/mentalhealth.png"
+    "image":"/img/homeEventImg/mentalhealth.png",
+    "images":[
+        "/img/homeEventImg/mentalhealth.png",
+        "/img/homeEventImg/mentalhealth1.png",
+        "/img/homeEventImg/mentalhealth2.png",
+        "/img/homeEventImg/mentalhealth3.png",
+        "/img/homeEventImg/mentalhealth4.png"
+    ]
   },
   {
     "id": 10,
     "title":"Community Outreach Events",
-    "image":"/img/homeEventImg/healthstory.png"
+    "image":"/img/homeEventImg/healthstory.png",
+     "images":[
+        "/img/homeEventImg/healthstory.png",
+        "/img/homeEventImg/healthstroy1.png",
+        "/img/homeEventImg/healthstory2.png",
+        "/img/homeEventImg/mentalhealth4.png"
+    ]
   }
 ]
