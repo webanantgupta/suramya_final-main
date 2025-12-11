@@ -694,6 +694,11 @@
   justify-content: center;
 }
 
+.event_title{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .event_image{
   display: flex;
   justify-content: center;
