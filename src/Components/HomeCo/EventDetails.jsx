@@ -96,12 +96,12 @@ const EventDetails = () => {
       {/* </div>  */}
 
       <div className="container-fluid d-flex flex-column align-items-center gap-3">
-        <div className="event_image">
-          <img src={event.image} alt={event.title} />
+        <div className="event_title text-justify">
+          <h2>{event.title}</h2>
         </div>
         <div className="event_content">
-          <div className="event_title text-justify">
-            <h2>{event.title}</h2>
+          <div className="event_image">
+            <img src={event.image} alt={event.title} />
           </div>
           <div className="event_description text-justify">
             <p>{event.description}</p>
