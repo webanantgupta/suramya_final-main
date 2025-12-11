@@ -680,3 +680,14 @@
    margin-bottom: 20px;
 }
 }
+
+
+.eventDetails_btn{
+  display: flex;
+  justify-content: center;
+}
+
+.galleryBack_btn{
+  display: flex;
+  justify-content: center;
+}

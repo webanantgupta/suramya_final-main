@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import eventData from "../../data/eventData/eventData.json";
 import PageHeader from "../../Common/PageHeader";
 
@@ -89,6 +89,9 @@ const EventDetails = () => {
             </ul>
           </div>
         )} */}
+        <div className="eventDetails_btn">
+        <Link to={'/viewevents'}  className="theme_button color2 margin_0">Back To Events</Link>
+        </div>
       </div>
     </div>
   );
