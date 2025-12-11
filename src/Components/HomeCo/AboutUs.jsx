@@ -26,7 +26,7 @@ const AboutUs = () => {
               1200: { slidesPerView: 4 },
             }}
           >
-            <SwiperSlide className="col-lg-3 col-sm-6 col-xs-12">
+            <SwiperSlide className="col-lg-3 col-sm-6 col-xs-12 h-100 about_value">
               <div className="teaser main_bg_color transp with_padding big-padding margin_0 about_card" >
                 <div className="media xxs-media-left">
                   <div className="media-left media-middle">
@@ -42,7 +42,7 @@ const AboutUs = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="col-lg-3 col-sm-6 col-xs-12">
+            <SwiperSlide className="col-lg-3 col-sm-6 col-xs-12 h-100 about_value">
               <div className="teaser main_bg_color2 transp with_padding big-padding margin_0 about_card" >
                 <div className="media xxs-media-left">
                   <div className="media-left media-middle">
@@ -58,7 +58,7 @@ const AboutUs = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="col-lg-3 col-sm-6 col-xs-12 h-100">
+            <SwiperSlide className="col-lg-3 col-sm-6 col-xs-12 h-100 about_value">
               <div className="teaser main_bg_color3 transp with_padding big-padding margin_0 about_card">
                 <div className="media xxs-media-left">
                   <div className="media-left media-middle">
@@ -74,7 +74,7 @@ const AboutUs = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="col-lg-3 col-sm-6 col-xs-12 h-100">
+            <SwiperSlide className="col-lg-3 col-sm-6 col-xs-12 h-100 about_value">
               <div className="teaser main_bg_color4 transp with_padding big-padding margin_0 about_card" >
                 <div className="media xxs-media-left">
                   <div className="media-left media-middle">

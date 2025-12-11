@@ -22,14 +22,14 @@ const Footer = () => {
                 </div>
                 <p className='text-sm-justify'>
                   Every person deserves to feel emotionally supported, mentally strong, and socially accepted — no matter who they are or where they come from.</p>
-                <p className="topmargin_25">
+                <div className="topmargin_25">
                   <div className="page_social d-flex justify-content-center gap-3">
                     <Link to="https://www.facebook.com/p/Suramya-Life-Foundation-100080958570012/" title="Facebook" target='_blank'><FaFacebookF /></Link>
                     <Link to="https://x.com/LifeSuramya" title="Twitter" target='_blank' ><FaXTwitter /></Link>
                     <Link to="https://www.instagram.com/suramyalife" target='_blank' title="Instagram" ><FaInstagram /></Link>
                     <Link to="https://www.youtube.com/@suramyalifefoundation" target='_blank' title="Youtube" ><FaYoutube /></Link>
                   </div>
-                </p>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-sm-6 col-xs-12 col-md-pull-4">

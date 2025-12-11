@@ -49,6 +49,7 @@ const Header = () => {
                                         <li><Link to="/gallery" onClick={closeMenu}>Gallery</Link></li>
                                         <li><Link to="/viewevents" onClick={closeMenu}>Events</Link></li>
                                         <li><Link to="/contact" onClick={closeMenu}>Contact Us</Link></li>
+                                        <li className='donateLink'><Link to="/donate" onClick={closeMenu}>Donate</Link></li>
 
                                     </ul>
                                 </nav>
@@ -61,7 +62,7 @@ const Header = () => {
 
                             {/* Donate Button */}
                             <div className="header_right_buttons display_table_cell text-right hidden-xs">
-                                <Link to="/donate" className="theme_button color2 margin_0">
+                                <Link to="/donate" className="theme_button color2 margin_0 donate_btn_desktop">
                                     <FaHeart /> Donate us now!
                                 </Link>
                             </div>

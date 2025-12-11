@@ -12,7 +12,7 @@ const GalleryDetails = () => {
     // console.log(gallery);
 
     return <div>
-        <PageHeader title={"Gallery"} />
+        <PageHeader title={"Gallery"} subTitle={galleryData.title} path={"/gallery"} />
         <div>
             <div className="container">
                 <div className="row gallery_box">
