@@ -1,5 +1,5 @@
 import PageHeader from "../../Common/PageHeader";
-import qrcode from "../../../public/img/homeEventImg/qrcode.png"
+import qrcode from "../../assets/qrcode.png"
 
 
 const Donate = () => {
@@ -14,25 +14,29 @@ const Donate = () => {
 
                 <div className="donate_row">
 
-                    <div className="donate_head1">
-                        <h4 className="text-start" style={{ color: "orange" }}>Your contribution helps us run</h4>
-                        <p>LGBTQIA+ sensitization programs</p>
-                        <p>School life-skills projects</p>
-                        <p>Mental health training sessions</p>
-                        <p>Transgender welfare initiatives</p>
-                        <p>Community support cells</p>
-                        <p>Workshops for survivors of emotional abuse</p>
+                    <div className="donate_head1 d-flex justify-content-center py-4">
+                        <div>
+                            <h4 className="text-start" style={{ color: "orange" }}>Your contribution helps us run</h4>
+                            <p className="mb-0">LGBTQIA+ sensitization programs</p>
+                            <p className="mb-0">School life-skills projects</p>
+                            <p className="mb-0">Mental health training sessions</p>
+                            <p className="mb-0">Transgender welfare initiatives</p>
+                            <p className="mb-0">Community support cells</p>
+                            <p className="mb-0">Workshops for survivors of emotional abuse</p>
+                        </div>
                     </div>
 
-                    <div className="donate_bank">
-                        <h4 className="text-start" style={{ color: "orange" }}>Bank Transfer Details</h4>
-                        <div className="mt-3">
-                            <p>Account Name: Suramya Life Foundation</p>
-                            <p>Bank: (Add bank name)</p>
-                            <p>Account Number: XXXXXXXX</p>
-                            <p>IFSC: XXXXXXXX</p>
-                            <p>Every contribution counts.</p>
-                            <p>Every contribution creates hope.</p>
+                    <div className="donate_bank d-flex justify-content-center py-4">
+                        <div>
+                            <h4 className="text-start" style={{ color: "orange" }}>Bank Transfer Details</h4>
+                            <div className="mt-3">
+                                <p className="mb-0">Account Name: Suramya Life Foundation</p>
+                                <p className="mb-0">Bank: (Add bank name)</p>
+                                <p className="mb-0">Account Number: XXXXXXXX</p>
+                                <p className="mb-0">IFSC: XXXXXXXX</p>
+                                <p className="mb-0">Every contribution counts.</p>
+                                <p className="mb-0">Every contribution creates hope.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -43,7 +47,7 @@ const Donate = () => {
                     <h4 className="text-center" style={{ color: "orange" }}>Donate via UPI</h4>
                     <div className="donate_upi_element">
                         <div className="upi_element1">
-                    <p className="mt-2">UPI ID: (Add your UPI ID)</p>
+                            <p className="mt-2">UPI ID: (Add your UPI ID)</p>
                         </div>
                         <div className="qrcode ">
                             <img src={qrcode} alt="qrcode" />
