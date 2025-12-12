@@ -285,7 +285,7 @@
     justify-content: space-evenly;
     padding-left: 10px;
     padding-right: 10px;
-    height: 210px !important;
+    height: 230px !important;
   }
 }
 
@@ -430,6 +430,24 @@
 .weoffer_card2 img{
   width: 100%;
   height: 100%;
+}
+
+}
+
+@media (min-width:801px) and (max-width:1400px){
+.weoffer_card{
+  gap: 10px;
+}
+.weserve_card2 img{
+width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+  .weoffer_card2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 }
 
