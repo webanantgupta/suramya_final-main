@@ -1,6 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import PageHeader from "../../Common/PageHeader";
 import viewEventsData from "../../data/eventData/eventData.json"
+import * as motion from "motion/react-client";
 
 
 const ViewEvents = () => {
@@ -23,12 +24,19 @@ const ViewEvents = () => {
             <div className="row">
                 {viewEventsData.map((obj, index) => {
                     return <div key={index} className="col-12 col-sm-6 col-lg-4 mb-4 pb-4 ">
-                        <div className="d-flex flex-column h-100 viewEvent_card"  style={{ border: "1px solid black", borderRadius: "10px" }}>
-                            <img src={obj.image} alt="image" style={{ height: "300px"}} />
-                            <h3 className="mt-auto text-center mt-2">{obj.title}</h3>
-                            <p className="mt-auto text-justify">{obj.description}</p>
-                            <div className="mt-auto text-center mb-2" style={{cursor:"pointer" , color:"blue"}} onClick={()=> navigate(`/event/${obj.id}`, {state:obj})}>Read More</div>
-                        </div>
+                        <motion.div
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.97 }}
+                            style={{ height: "100%" }}
+                        >
+                            <div className="d-flex flex-column h-100 viewEvent_card" style={{ border: "1px solid black", borderRadius: "10px" }}>
+                                <img src={obj.image} alt="image" style={{ height: "300px" }} />
+                                <h3 className="mt-auto text-center mt-2">{obj.title}</h3>
+                                <p className="mt-auto text-justify">{obj.description}</p>
+                                <div className="mt-auto text-center mb-2" style={{ cursor: "pointer", color: "blue" }} onClick={() => navigate(`/event/${obj.id}`, { state: obj })}>Read More</div>
+                            </div>
+                        </motion.div>
+
                     </div>
                 })}
             </div>

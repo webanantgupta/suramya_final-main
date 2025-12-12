@@ -4,6 +4,7 @@ import galleryImg from "../../data/galleryImgData/galleryData.json"
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
+import * as motion from "motion/react-client";
 
 // If you want you can use SCSS instead of css
 import 'lightgallery/scss/lightgallery.scss';
@@ -23,7 +24,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const Gallery = () => {
     const navigate = useNavigate();
     // console.log(galleryImg);
- 
+
 
     return <div>
         <PageHeader title="Gallery" />
@@ -50,10 +51,19 @@ const Gallery = () => {
         </div> */}
         <div className='gallery_card'>
             {galleryImg?.map((obj, index) => {
-                return <div key={index} className='gallery_items' onClick={() => navigate(`/gallery/${obj.id}`, { state: obj })}>
-                    <img src={obj.image} alt={obj.title} />
-                    <h4 className='text-center'>{obj.title}</h4>
-                    <p className='text-primary' >View Details</p>
+                return <div key={index} >
+                    <motion.div
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.97 }}
+                        style={{height:"100%"}}
+                        className='gallery_items' onClick={() => navigate(`/gallery/${obj.id}`, { state: obj })}
+                    >
+
+                        <img src={obj.image} alt={obj.title} />
+                        <h4 className='text-center'>{obj.title}</h4>
+                        <p className='text-primary' >View Details</p>
+                    </motion.div>
+
                 </div>
             })}
         </div>

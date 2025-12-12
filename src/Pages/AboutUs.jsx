@@ -3,6 +3,9 @@ import PageHeader from '../Common/PageHeader'
 import { Card, CardBody, CardTitle, Col, Row } from 'reactstrap'
 const weOfferImg = "/img/homeEventImg/mediasensitization.png"
 const weServeImg = "/img/homeEventImg/cyberbulling.png"
+import * as motion from "motion/react-client";
+
+
 const AboutUs = () => {
     const value = [
         {
@@ -122,12 +125,19 @@ const AboutUs = () => {
                             <div className="row justify-content-center pt-4 approach_grid">
                                 {value?.map((data, idx) => (
                                     <Col className="mb-3" key={idx}>
+                                        <motion.div 
+                                           whileHover={{ scale: 1.05 }}
+                                                    whileTap={{ scale: 0.97 }}
+                                        >
+
                                         <Card className='approach_card' style={{ height: "180px" }}>
                                             <CardBody>
                                                 <h4 style={{ color: "#f3702b" }}>{data.title} </h4>
                                                 <p className='aboutus_text'>{data.text}</p>
                                             </CardBody>
                                         </Card>
+                                        </motion.div>
+
                                     </Col>
                                 ))}
                             </div>
@@ -155,14 +165,25 @@ const AboutUs = () => {
                                 <div className='container'>
                                     <div className=" row justify-content-center">
                                         {approach?.map((data, idx) => (
+
                                             <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={idx} >
-                                                <div className='value_card1'>
-                                                    <div className='content_card'>
-                                                        <h5 style={{ color: "#f3702b" }}>{data.title} </h5>
-                                                        <p className=' text-justify'>{data.text}</p>
+                                                <motion.div
+                                                    whileHover={{ scale: 1.05 }}
+                                                    whileTap={{ scale: 0.97 }}
+                                                >
+
+                                                    <div className='value_card1'>
+
+                                                        <div className='content_card'>
+                                                            <h5 style={{ color: "#f3702b" }}>{data.title} </h5>
+                                                            <p className=' text-justify'>{data.text}</p>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                </motion.div>
+
                                             </div>
+
+
                                         ))}
                                     </div>
                                 </div>
@@ -173,6 +194,8 @@ const AboutUs = () => {
                                     <div className='weoffer_card1'>
                                         <h2 className='section_header color4'>What We Offer</h2>
                                         <ul className='aboutus_text'>
+
+
                                             <li>Sensitization & awareness workshops</li>
                                             <li>Mental health training and life-skills programs</li>
                                             <li>Trauma-informed emotional support</li>
@@ -182,10 +205,18 @@ const AboutUs = () => {
                                             <li>Research-based consultancy & advisory</li>
                                             <li>CSR partnerships and corporate wellbeing programs</li>
                                             <li>ToT-based modules for schools, colleges & govt. departments</li>
+
                                         </ul>
                                     </div>
                                     <div className='weoffer_card2'>
-                                        <img src={weOfferImg} alt="image" />
+                                        <motion.div
+                                            whileHover={{ scale: 1.05 }}
+                                            whileTap={{ scale: 0.97 }}
+                                        >
+
+                                            <img src={weOfferImg} alt="image" />
+                                        </motion.div>
+
                                     </div>
                                 </div>
                                 <div className='weserve_card'>
@@ -203,7 +234,14 @@ const AboutUs = () => {
                                         </ul>
                                     </div>
                                     <div className='weserve_card2'>
-                                        <img src={weServeImg} alt="image" />
+                                        <motion.div
+                                            whileHover={{ scale: 1.05 }}
+                                            whileTap={{ scale: 0.97 }}
+                                        >
+
+                                            <img src={weServeImg} alt="image" />
+                                        </motion.div>
+
                                     </div>
 
 

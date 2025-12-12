@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import * as motion from "motion/react-client";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -60,6 +61,12 @@ const Events = () => {
                             {newData.map((obj, index) => {
                                 return <SwiperSlide>
                                     <div className="col-12 col-sm-6 col-lg-3 mb-4 w-100" style={{height:"600px"}} key={index}>
+                                        <motion.div 
+                                        style={{height:"100%"}}
+                                          whileHover={{ scale: 1.05 }}
+                                                    whileTap={{ scale: 0.97 }}
+                                        >
+
                                         <Card className="card_container h-100">
                                             <img src={obj.image} alt="image" style={{ height: "300px", objectFit: "cover" , borderTopLeftRadius:"6px" , borderTopRightRadius:"6px"}} />
                                             <CardBody className="d-flex flex-column ">
@@ -69,6 +76,8 @@ const Events = () => {
                                                 <Link to={`/event/${obj.id}`} className="mt-auto">Read more</Link>
                                             </CardBody>
                                         </Card>
+                                        </motion.div>
+
                                     </div>
                                 </SwiperSlide>
                             })}

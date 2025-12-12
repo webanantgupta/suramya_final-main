@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import PageHeader from "../../Common/PageHeader";
+import * as motion from "motion/react-client";
 
 
 const GalleryDetails = () => {
@@ -18,7 +19,14 @@ const GalleryDetails = () => {
                 <div className="row justify-content-center gallery_box">
                     {galleryData.images.map((obj, index) => {
                         return <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3 gallery_grid">
+                            <motion.div 
+                               whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.97 }}
+                            >
+
                             <img src={obj} alt="image" />
+                            </motion.div>
+
                         </div>
                     })}
                     <div className="galleryBack_btn">

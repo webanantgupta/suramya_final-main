@@ -1,5 +1,6 @@
 import {useLocation } from "react-router-dom";
 import PageHeader from "../../Common/PageHeader";
+import * as motion from "motion/react-client";
 
 const EventDetails = () => {
   const locate = useLocation()
@@ -105,7 +106,14 @@ const EventDetails = () => {
         <div className="event_content">
           <div className="event_image">
             {state?.image && (
+              <motion.div
+                  whileHover={{ scale: 1.05 }}
+                                                    whileTap={{ scale: 0.97 }}
+              >
+
             <img src={state.image} alt={state.title} />
+              </motion.div>
+
             )}
           </div>
           <div className="event_description text-justify">
