@@ -29,7 +29,7 @@ const ViewEvents = () => {
                             whileTap={{ scale: 0.97 }}
                             style={{ height: "100%" }}
                         >
-                            <div className="d-flex flex-column h-100 viewEvent_card" onClick={() => navigate(`/event/${obj.id}`, { state: obj })} style={{ border: "1px solid black", borderRadius: "10px" }}>
+                            <div className="d-flex flex-column h-100 viewEvent_card" onClick={() => navigate(`/event/${obj.id}`, { state: obj })} style={{ border: "1px solid black", borderRadius: "10px",cursor:"pointer" }}>
                                 <img src={obj.image} alt="image" style={{ height: "300px" }} />
                                 <h3 className="mt-auto text-center mt-2">{obj.title}</h3>
                                 <p className="mt-auto text-justify">{obj.description}</p>
