@@ -58,7 +58,6 @@ const Gallery = () => {
                         style={{height:"100%"}}
                         className='gallery_items' onClick={() => navigate(`/gallery/${obj.id}`, { state: obj })}
                     >
-
                         <img src={obj.image} alt={obj.title} />
                         <h4 className='text-center'>{obj.title}</h4>
                         <p className='text-primary' >View Details</p>
