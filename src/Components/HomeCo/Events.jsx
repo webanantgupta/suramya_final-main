@@ -1,6 +1,6 @@
 import { Card, CardBody } from "reactstrap";
 import homeEvents from "../../data/eventData/eventData.json"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,7 +15,7 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
 const Events = () => {
     // console.log(homeEvents);
- 
+ const navigate = useNavigate();
     const newData = homeEvents.slice(0, 4);
     // console.log(newData);
 
@@ -43,7 +43,7 @@ const Events = () => {
                             loop={true}
                             rewind={true}
                             autoplay={{
-                                delay: 1800,
+                                delay: 3000,
                                 disableOnInteraction: false
                             }}
                             navigation={true}
@@ -67,13 +67,13 @@ const Events = () => {
                                                     whileTap={{ scale: 0.97 }}
                                         >
 
-                                        <Card className="card_container h-100">
+                                        <Card className="card_container h-100"  onClick={() => navigate(`/event/${obj.id}`, { state: obj })} style={{cursor:"pointer"}}>
                                             <img src={obj.image} alt="image" style={{ height: "300px", objectFit: "cover" , borderTopLeftRadius:"6px" , borderTopRightRadius:"6px"}} />
                                             <CardBody className="d-flex flex-column ">
                                                 <h4 className="mt-auto text-center">{obj.title}</h4>
                                                 <p className="mt-auto text-justify">{obj.description}</p>
 
-                                                <Link to={`/event/${obj.id}`} className="mt-auto">Read more</Link>
+                                                <div className="mt-auto text-primary">Read more</div>
                                             </CardBody>
                                         </Card>
                                         </motion.div>
