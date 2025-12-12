@@ -22,11 +22,8 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const Gallery = () => {
     const navigate = useNavigate();
-    console.log(galleryImg);
-    // const onInit = () => {
-    //     console.log("sdvdsv");
-
-    // }
+    // console.log(galleryImg);
+ 
 
     return <div>
         <PageHeader title="Gallery" />

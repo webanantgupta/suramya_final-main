@@ -13,10 +13,10 @@ import 'swiper/css/pagination';
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
 const Events = () => {
-    console.log(homeEvents);
-
+    // console.log(homeEvents);
+ 
     const newData = homeEvents.slice(0, 4);
-    console.log(newData);
+    // console.log(newData);
 
 
 

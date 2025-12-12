@@ -1,18 +1,19 @@
-import { Link, useParams } from "react-router-dom";
-import eventData from "../../data/eventData/eventData.json";
+import {useLocation } from "react-router-dom";
 import PageHeader from "../../Common/PageHeader";
 
 const EventDetails = () => {
-  const { id } = useParams();
+  const locate = useLocation()
+  // console.log(locate.state);
+  const state = locate.state
 
-  const event = eventData.find((e) => e.id === parseInt(id));
 
-  if (!event) return <p className="text-center mt-5">Event Not Found!</p>;
-  console.log(event);
+
+  if (!state) return <p className="text-center mt-5">Event Not Found!</p>;
+  // console.log(state);
 
   return (
     <div>
-      <PageHeader title={"Events"} subTitle={event.title} path="/viewevents" />
+      <PageHeader title={"Events"} subTitle={state.title} path="/viewevents" />
       {/* <div className="container my-5">
         <div className="row align-items-center mb-5">
           <div className="col-12 col-md-6 mb-4 mb-md-0">
@@ -97,26 +98,58 @@ const EventDetails = () => {
 
       <div className="container-fluid d-flex flex-column align-items-center gap-3">
         <div className="event_title text-justify">
-          <h2>{event.title}</h2>
+          {state?.title && (
+          <h2>{state.title}</h2>
+          )}
         </div>
         <div className="event_content">
           <div className="event_image">
-            <img src={event.image} alt={event.title} />
+            {state?.image && (
+            <img src={state.image} alt={state.title} />
+            )}
           </div>
           <div className="event_description text-justify">
-            <p>{event.description}</p>
+            {state?.description && (
+            <p>{state.description}</p>
+            )}
+          </div>
+          <div className="event_description text-justify"> 
+            {state?.content1 && (
+              <ul>
+                {state.content1.map((obj,index)=>{
+                  return <div key={index}>
+                        <li>{obj}</li>
+                  </div>
+                })}
+              </ul>
+            )}
           </div>
           <div>
-            <ul>
-              {event.highlights.map((obj, index) => {
-                return <div key={index} className="text-justify">
-                  <li>{obj}</li>
-                </div>
-              })}
-            </ul>
+            {state?.content2 && (
+              <p>{state.content2}</p>
+            )}
+          </div>
+           <div>
+            {state?.content3 && (
+              <p>{state.content3}</p>
+            )}
+          </div>
+          <div>
+            {state?.highlights && (
+              <ul>
+                {state.highlights.map((obj, index) => {
+                  return <div key={index} className="text-justify">
+                    <li>{obj}</li>
+                  </div>
+                })}
+              </ul>
+            )}
+
           </div>
           <div className="text-justify">
-            <p>{event.impact}</p>
+            {state?.impact && (
+            <p>{state.impact}</p>
+            )}
           </div>
         </div>
 

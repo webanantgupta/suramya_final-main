@@ -57,7 +57,7 @@ const LeaderGrid = () => {
                     </Swiper>
                 </div>
 
-                <div className="row">
+                <div className="row justify-content-center">
                     <h2 className="mt-5 mb-4">Our Advisory Board</h2>
                     {advisor.map((obj, index) => {
                         return <div key={index} className="col-12 col-sm-6 col-lg-4 h-70 mb-5">

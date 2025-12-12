@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PageHeader from "../../Common/PageHeader";
 import viewEventsData from "../../data/eventData/eventData.json"
 
 
 const ViewEvents = () => {
-    console.log(viewEventsData);
+    // console.log(viewEventsData);
+    const navigate = useNavigate();
 
     if (!viewEventsData) return <p>Details Not Found</p>
 
@@ -26,7 +27,7 @@ const ViewEvents = () => {
                             <img src={obj.image} alt="image" style={{ height: "300px"}} />
                             <h3 className="mt-auto text-center mt-2">{obj.title}</h3>
                             <p className="mt-auto text-justify">{obj.description}</p>
-                            <Link className="mt-auto text-center" to={`/event/${obj.id}`}>Read More</Link>
+                            <div className="mt-auto text-center mb-2" style={{cursor:"pointer" , color:"blue"}} onClick={()=> navigate(`/event/${obj.id}`, {state:obj})}>Read More</div>
                         </div>
                     </div>
                 })}

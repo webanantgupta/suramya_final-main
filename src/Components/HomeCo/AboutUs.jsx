@@ -15,7 +15,7 @@ const AboutUs = () => {
           <Swiper
             modules={[Navigation, Autoplay,Pagination, EffectFade]}
             // navigation={true}
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            autoplay={{ delay: 20000, disableOnInteraction: false }}
             loop={true}
             // rewind={true}
             spaceBetween={20}

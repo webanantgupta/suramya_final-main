@@ -118,7 +118,8 @@ const AboutUs = () => {
                                         and accessible, enabling every individual to live with dignity, clarity, and purpose. </p>
                                 </div>
                             </div>
-                            <Row className=" d-flex justify-content-center pt-4 approach_grid">
+
+                            <div className="row justify-content-center pt-4 approach_grid">
                                 {value?.map((data, idx) => (
                                     <Col className="mb-3" key={idx}>
                                         <Card className='approach_card' style={{ height: "180px" }}>
@@ -129,7 +130,7 @@ const AboutUs = () => {
                                         </Card>
                                     </Col>
                                 ))}
-                            </Row>
+                            </div>
                             {/* <Row>
                                 <Col md={12}
                                     data-animation="fadeInRight"
@@ -151,18 +152,21 @@ const AboutUs = () => {
                             <div className='col-md-12 mt-5'>
                                 <h2 className='section_header color4'>Our Approach</h2>
                                 <p className='aboutus_text'>We bridge gaps in mental health, emotional support, and social inclusion through:</p>
-                                <div className="approach_grid">
-                                    {approach?.map((data, idx) => (
-                                        <div className="mb-3 approach_card" key={idx} >
-                                            <div className='value_card1'>
-                                                <div className='content_card'>
-                                                    <h5 style={{ color: "#f3702b" }}>{data.title} </h5>
-                                                    <p className=' text-justify'>{data.text}</p>
+                                <div className='container'>
+                                    <div className=" row justify-content-center">
+                                        {approach?.map((data, idx) => (
+                                            <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={idx} >
+                                                <div className='value_card1'>
+                                                    <div className='content_card'>
+                                                        <h5 style={{ color: "#f3702b" }}>{data.title} </h5>
+                                                        <p className=' text-justify'>{data.text}</p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    ))}
+                                        ))}
+                                    </div>
                                 </div>
+
 
 
                                 <div className='weoffer_card'>
@@ -202,9 +206,9 @@ const AboutUs = () => {
                                         <img src={weServeImg} alt="image" />
                                     </div>
 
-                                   
+
                                 </div>
-                                 <p className=' text-center'>Because every life stage and every identity deserves emotional strength, safe spaces, and supportive ecosystems.</p>
+                                <p className=' text-center'>Because every life stage and every identity deserves emotional strength, safe spaces, and supportive ecosystems.</p>
                             </div>
                         </div>
                     </section>

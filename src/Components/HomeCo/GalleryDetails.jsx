@@ -4,9 +4,9 @@ import PageHeader from "../../Common/PageHeader";
 
 const GalleryDetails = () => {
     const location = useLocation();
-    console.log(location.state, 'state data')
+    // console.log(location.state, 'state data')
     const galleryData = location.state;
-    console.log(galleryData);
+    // console.log(galleryData);
 
     // const gallery = data.find((items)=> items.id === parseInt(id))
     // console.log(gallery);
@@ -15,7 +15,7 @@ const GalleryDetails = () => {
         <PageHeader title={"Gallery"} subTitle={galleryData.title} path={"/gallery"} />
         <div>
             <div className="container">
-                <div className="row gallery_box">
+                <div className="row justify-content-center gallery_box">
                     {galleryData.images.map((obj, index) => {
                         return <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3 gallery_grid">
                             <img src={obj} alt="image" />
